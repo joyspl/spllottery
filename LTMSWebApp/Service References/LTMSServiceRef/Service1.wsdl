@@ -1,0 +1,2663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:50305/LTMSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:50305/LTMSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:50305/LTMSService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+      <xsd:import schemaLocation="http://localhost:50305/LTMSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/LTMSClass" />
+      <xsd:import schemaLocation="http://localhost:50305/LTMSService.svc?xsd=xsd4" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ILTMSService_GetUnSoldSummaryById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnSoldSummaryById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUnSoldSummaryById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnSoldSummaryByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetPrintOrderDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrintOrderDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetPrintOrderDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrintOrderDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInRequisitionDealer_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInRequisitionDealer" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInRequisitionDealer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInRequisitionDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInRequisitionDealer_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInRequisitionDealer" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInRequisitionDealer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInRequisitionDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDealerDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDealerDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDealerDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDealerDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDealerDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDealerDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDealerDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDealerDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInRequisitionDealer_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInRequisitionDealer" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInRequisitionDealer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInRequisitionDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDealerDtlByStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDealerDtlByStatus" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDealerDtlByStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDealerDtlByStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisitionDealer_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisitionDealer" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisitionDealer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisitionDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InserInLotteryClaimEntry_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserInLotteryClaimEntry" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InserInLotteryClaimEntry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserInLotteryClaimEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryClaimEntryDtlByReqCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryClaimEntryDtlByReqCode" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryClaimEntryDtlByReqCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryClaimEntryDtlByReqCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryClaimEntryDtlByStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryClaimEntryDtlByStatus" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryClaimEntryDtlByStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryClaimEntryDtlByStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryClaimEntryDtlByReqId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryClaimEntryDtlByReqId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryClaimEntryDtlByReqId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryClaimEntryDtlByReqIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInLotteryClaimEntry_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInLotteryClaimEntry" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInLotteryClaimEntry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInLotteryClaimEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalByStausInLotteryClaimEntry_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalByStausInLotteryClaimEntry" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalByStausInLotteryClaimEntry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalByStausInLotteryClaimEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryClaimSendToGovDtlByStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryClaimSendToGovDtlByStatus" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryClaimSendToGovDtlByStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryClaimSendToGovDtlByStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetClaimSendToGovApprovedDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClaimSendToGovApprovedDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetClaimSendToGovApprovedDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClaimSendToGovApprovedDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateLotteryClaimEntrySendToGov_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLotteryClaimEntrySendToGov" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateLotteryClaimEntrySendToGov_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLotteryClaimEntrySendToGovResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSendToGovAnnextureIIIByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSendToGovAnnextureIIIByID" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSendToGovAnnextureIIIByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSendToGovAnnextureIIIByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInTicketInventory_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInTicketInventory" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInTicketInventory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInTicketInventoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInTicketInventory_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInTicketInventory" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInTicketInventory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInTicketInventoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GenerateLotteryNumberDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateLotteryNumberDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GenerateLotteryNumberDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateLotteryNumberDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InserInTicketInventoryClaimed_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserInTicketInventoryClaimed" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InserInTicketInventoryClaimed_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserInTicketInventoryClaimedResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetVariableClaimPrizeById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVariableClaimPrizeById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetVariableClaimPrizeById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVariableClaimPrizeByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetVariableClaimByClaimId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVariableClaimByClaimId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetVariableClaimByClaimId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVariableClaimByClaimIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetVariableClaimVoucherDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVariableClaimVoucherDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetVariableClaimVoucherDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVariableClaimVoucherDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInVariableClaimByVoucherId_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInVariableClaimByVoucherId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInVariableClaimByVoucherId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInVariableClaimByVoucherIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInVariableClaim_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInVariableClaim" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInVariableClaim_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInVariableClaimResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InserInTicketInventoryUnSold_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserInTicketInventoryUnSold" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InserInTicketInventoryUnSold_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserInTicketInventoryUnSoldResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryUnsold_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryUnsold" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryUnsold_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryUnsoldResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionTransactionDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionTransactionDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionTransactionDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionTransactionDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInRequisitionChallan_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInRequisitionChallan" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInRequisitionChallan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInRequisitionChallanResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InserInRequisitionChallan_InputMessage">
+    <wsdl:part name="parameters" element="tns:InserInRequisitionChallan" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InserInRequisitionChallan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InserInRequisitionChallanResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionChallanDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionChallanDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionChallanDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionChallanDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetChallanDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetChallanDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetChallanDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetChallanDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInChallanById_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInChallanById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInChallanById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInChallanByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisitionChallan_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisitionChallan" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisitionChallan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisitionChallanResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetVariableIncentiveByReqId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVariableIncentiveByReqId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetVariableIncentiveByReqId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVariableIncentiveByReqIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerListOfTransactionDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerListOfTransactionDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerListOfTransactionDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerListOfTransactionDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerTransactionDtlByReqId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerTransactionDtlByReqId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerTransactionDtlByReqId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerTransactionDtlByReqIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetProfitLossDtlByReqId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProfitLossDtlByReqId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetProfitLossDtlByReqId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProfitLossDtlByReqIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInSeriesGeneration_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInSeriesGeneration" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInSeriesGeneration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInSeriesGenerationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInSeriesGeneration_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInSeriesGeneration" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInSeriesGeneration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInSeriesGenerationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationAll" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationByReqId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationByReqId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationByReqId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationByReqIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationByReqIdSpecific_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationByReqIdSpecific" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationByReqIdSpecific_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationByReqIdSpecificResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationListByReqId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationListByReqId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationListByReqId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationListByReqIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationByReqIdAndSr1End_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationByReqIdAndSr1End" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSeriesGenerationByReqIdAndSr1End_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSeriesGenerationByReqIdAndSr1EndResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInSeriesGeneration_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInSeriesGeneration" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInSeriesGeneration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInSeriesGenerationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInZipProgress_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInZipProgress" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInZipProgress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInZipProgressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInZipProgress_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInZipProgress" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInZipProgress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInZipProgressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInZipProgress_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInZipProgress" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInZipProgress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInZipProgressResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetZipProgressById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetZipProgressById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetZipProgressById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetZipProgressByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInLottery_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInLottery" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInLottery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInLotteryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInLottery_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInLottery" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInLottery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInLotteryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInLottery_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInLottery" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInLottery_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInLotteryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlByLotteryTypeId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlByLotteryTypeId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlByLotteryTypeId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlByLotteryTypeIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlByName" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInLotteryType_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInLotteryType" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInLotteryType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInLotteryTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInLotteryType_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInLotteryType" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInLotteryType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInLotteryTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryTypeDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryTypeDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryTypeDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryTypeDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryTypeDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryTypeDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryTypeDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryTypeDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInLotteryType_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInLotteryType" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInLotteryType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInLotteryTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInGovermentOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInGovermentOrder" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInGovermentOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInGovermentOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInGovermentOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInGovermentOrder" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInGovermentOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInGovermentOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGovermentOrderDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGovermentOrderDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGovermentOrderDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGovermentOrderDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGovermentOrderDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGovermentOrderDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGovermentOrderDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGovermentOrderDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGovOrderDtlByLotteryId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGovOrderDtlByLotteryId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGovOrderDtlByLotteryId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGovOrderDtlByLotteryIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInGovermentOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInGovermentOrder" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInGovermentOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInGovermentOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGovermentOrderDtlbyStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGovermentOrderDtlbyStatus" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGovermentOrderDtlbyStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGovermentOrderDtlbyStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryByApprovedGovOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryByApprovedGovOrder" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryByApprovedGovOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryByApprovedGovOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDepositToDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepositToDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDepositToDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepositToDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInUserRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInUserRole" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInUserRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInUserRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInUserRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInUserRole" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInUserRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInUserRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserRoleDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserRoleDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserRoleDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserRoleDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserRoleDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserRoleDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserRoleDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserRoleDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInUserRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInUserRole" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInUserRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInUserRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGetMenuListForUserRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGetMenuListForUserRole" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetGetMenuListForUserRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGetMenuListForUserRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetNavMenuListForUserRoleId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNavMenuListForUserRoleId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetNavMenuListForUserRoleId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNavMenuListForUserRoleIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInPrize_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInPrize" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInPrize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInPrizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInPrize_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInPrize" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInPrize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInPrizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetPrizeDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrizeDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetPrizeDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrizeDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetPrizeDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrizeDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetPrizeDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrizeDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInPrize_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInPrize" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInPrize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInPrizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetWinnePrizeWinningSlNoDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWinnePrizeWinningSlNoDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetWinnePrizeWinningSlNoDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWinnePrizeWinningSlNoDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryWiningSerialNoDtlByLotteryNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryWiningSerialNoDtlByLotteryNo" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryWiningSerialNoDtlByLotteryNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryWiningSerialNoDtlByLotteryNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInPrize_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInPrize" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInPrize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInPrizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInPrizeWinner_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInPrizeWinner" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInPrizeWinner_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInPrizeWinnerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetWinneListDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWinneListDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetWinneListDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWinneListDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetWinneEntryDtlByRequisitionId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWinneEntryDtlByRequisitionId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetWinneEntryDtlByRequisitionId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWinneEntryDtlByRequisitionIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInReqWinnerPrize_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInReqWinnerPrize" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInReqWinnerPrize_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInReqWinnerPrizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetWinnigSlNoDtlByRequisitionId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWinnigSlNoDtlByRequisitionId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetWinnigSlNoDtlByRequisitionId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWinnigSlNoDtlByRequisitionIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInUser" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInUser" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInUser" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetIsValidUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIsValidUser" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetIsValidUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIsValidUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateUserPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserPassword" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateUserPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserDtlByEmailOrMobile_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDtlByEmailOrMobile" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserDtlByEmailOrMobile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDtlByEmailOrMobileResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetIsMenuAccessAvailable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIsMenuAccessAvailable" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetIsMenuAccessAvailable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIsMenuAccessAvailableResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserDtlByUserId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDtlByUserId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetUserDtlByUserId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserDtlByUserIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInDealerDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInDealerDeposit" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInDealerDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInDealerDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInDealerDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInDealerDeposit" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInDealerDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInDealerDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositViewDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositViewDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositViewDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositViewDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInDealerDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInDealerDeposit" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInDealerDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInDealerDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_SpGetDealerDepositReconDtlByStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:SpGetDealerDepositReconDtlByStatus" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_SpGetDealerDepositReconDtlByStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SpGetDealerDepositReconDtlByStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateReconInDealerDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateReconInDealerDeposit" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateReconInDealerDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateReconInDealerDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositViewForApprovalDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositViewForApprovalDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositViewForApprovalDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositViewForApprovalDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInDealerDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInDealerDeposit" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInDealerDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInDealerDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInReqDealerDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInReqDealerDeposit" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInReqDealerDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInReqDealerDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositInHandDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositInHandDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositInHandDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositInHandDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositDtlByReqId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositDtlByReqId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDealerDepositDtlByReqId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDealerDepositDtlByReqIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDepositMethodDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepositMethodDetails" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDepositMethodDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDepositMethodDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetEmailToDtlByType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmailToDtlByType" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetEmailToDtlByType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmailToDtlByTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInRequisition_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInRequisition" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_InsertInRequisition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertInRequisitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInRequisition_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInRequisition" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateInRequisition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateInRequisitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateCloseTransactionInRequisition_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCloseTransactionInRequisition" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateCloseTransactionInRequisition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCloseTransactionInRequisitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateSendForAdjustment_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSendForAdjustment" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateSendForAdjustment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateSendForAdjustmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSentAdjustmentDtlByTranNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSentAdjustmentDtlByTranNo" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetSentAdjustmentDtlByTranNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSentAdjustmentDtlByTranNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetAdjustmentDtlByRequisitionId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdjustmentDtlByRequisitionId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetAdjustmentDtlByRequisitionId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAdjustmentDtlByRequisitionIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDtlById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDtlById" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDtlById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDtlByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInRequisition_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInRequisition" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_DeleteInRequisition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteInRequisitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDtlByStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDtlByStatus" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDtlByStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDtlByStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitiondataForDDL_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitiondataForDDL" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitiondataForDDL_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitiondataForDDLResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetBankGuranteeLedger_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankGuranteeLedger" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetBankGuranteeLedger_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankGuranteeLedgerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisition_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisition" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisitionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisitionUnSoldTicket_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisitionUnSoldTicket" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisitionUnSoldTicket_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisitionUnSoldTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisitionUnClaimTicket_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisitionUnClaimTicket" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_UpdateApprovalInRequisitionUnClaimTicket_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateApprovalInRequisitionUnClaimTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDtlByStatusForDealerReq_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDtlByStatusForDealerReq" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetRequisitionDtlByStatusForDealerReq_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRequisitionDtlByStatusForDealerReqResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDirectorRequisitionDtlByDealerReqId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDirectorRequisitionDtlByDealerReqId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetDirectorRequisitionDtlByDealerReqId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDirectorRequisitionDtlByDealerReqIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLastDrawDateAndNoDtlByLotteryId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastDrawDateAndNoDtlByLotteryId" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLastDrawDateAndNoDtlByLotteryId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastDrawDateAndNoDtlByLotteryIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlFromRequisitionDtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlFromRequisitionDtl" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlFromRequisitionDtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlFromRequisitionDtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlInClaimAndUnSold_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlInClaimAndUnSold" />
+  </wsdl:message>
+  <wsdl:message name="ILTMSService_GetLotteryDtlInClaimAndUnSold_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLotteryDtlInClaimAndUnSoldResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ILTMSService">
+    <wsdl:operation name="GetUnSoldSummaryById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetUnSoldSummaryById" message="tns:ILTMSService_GetUnSoldSummaryById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetUnSoldSummaryByIdResponse" message="tns:ILTMSService_GetUnSoldSummaryById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintOrderDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetPrintOrderDtlById" message="tns:ILTMSService_GetPrintOrderDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetPrintOrderDtlByIdResponse" message="tns:ILTMSService_GetPrintOrderDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInRequisitionDealer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInRequisitionDealer" message="tns:ILTMSService_InsertInRequisitionDealer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInRequisitionDealerResponse" message="tns:ILTMSService_InsertInRequisitionDealer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInRequisitionDealer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInRequisitionDealer" message="tns:ILTMSService_UpdateInRequisitionDealer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInRequisitionDealerResponse" message="tns:ILTMSService_UpdateInRequisitionDealer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDealerDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDealerDtl" message="tns:ILTMSService_GetRequisitionDealerDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDealerDtlResponse" message="tns:ILTMSService_GetRequisitionDealerDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDealerDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDealerDtlById" message="tns:ILTMSService_GetRequisitionDealerDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDealerDtlByIdResponse" message="tns:ILTMSService_GetRequisitionDealerDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInRequisitionDealer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInRequisitionDealer" message="tns:ILTMSService_DeleteInRequisitionDealer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInRequisitionDealerResponse" message="tns:ILTMSService_DeleteInRequisitionDealer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDealerDtlByStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDealerDtlByStatus" message="tns:ILTMSService_GetRequisitionDealerDtlByStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDealerDtlByStatusResponse" message="tns:ILTMSService_GetRequisitionDealerDtlByStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisitionDealer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionDealer" message="tns:ILTMSService_UpdateApprovalInRequisitionDealer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionDealerResponse" message="tns:ILTMSService_UpdateApprovalInRequisitionDealer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserInLotteryClaimEntry">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InserInLotteryClaimEntry" message="tns:ILTMSService_InserInLotteryClaimEntry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InserInLotteryClaimEntryResponse" message="tns:ILTMSService_InserInLotteryClaimEntry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryClaimEntryDtlByReqCode">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryClaimEntryDtlByReqCode" message="tns:ILTMSService_GetLotteryClaimEntryDtlByReqCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryClaimEntryDtlByReqCodeResponse" message="tns:ILTMSService_GetLotteryClaimEntryDtlByReqCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryClaimEntryDtlByStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryClaimEntryDtlByStatus" message="tns:ILTMSService_GetLotteryClaimEntryDtlByStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryClaimEntryDtlByStatusResponse" message="tns:ILTMSService_GetLotteryClaimEntryDtlByStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryClaimEntryDtlByReqId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryClaimEntryDtlByReqId" message="tns:ILTMSService_GetLotteryClaimEntryDtlByReqId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryClaimEntryDtlByReqIdResponse" message="tns:ILTMSService_GetLotteryClaimEntryDtlByReqId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInLotteryClaimEntry">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInLotteryClaimEntry" message="tns:ILTMSService_UpdateApprovalInLotteryClaimEntry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInLotteryClaimEntryResponse" message="tns:ILTMSService_UpdateApprovalInLotteryClaimEntry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalByStausInLotteryClaimEntry">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalByStausInLotteryClaimEntry" message="tns:ILTMSService_UpdateApprovalByStausInLotteryClaimEntry_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalByStausInLotteryClaimEntryResponse" message="tns:ILTMSService_UpdateApprovalByStausInLotteryClaimEntry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryClaimSendToGovDtlByStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryClaimSendToGovDtlByStatus" message="tns:ILTMSService_GetLotteryClaimSendToGovDtlByStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryClaimSendToGovDtlByStatusResponse" message="tns:ILTMSService_GetLotteryClaimSendToGovDtlByStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClaimSendToGovApprovedDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetClaimSendToGovApprovedDtl" message="tns:ILTMSService_GetClaimSendToGovApprovedDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetClaimSendToGovApprovedDtlResponse" message="tns:ILTMSService_GetClaimSendToGovApprovedDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLotteryClaimEntrySendToGov">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateLotteryClaimEntrySendToGov" message="tns:ILTMSService_UpdateLotteryClaimEntrySendToGov_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateLotteryClaimEntrySendToGovResponse" message="tns:ILTMSService_UpdateLotteryClaimEntrySendToGov_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSendToGovAnnextureIIIByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetSendToGovAnnextureIIIByID" message="tns:ILTMSService_GetSendToGovAnnextureIIIByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetSendToGovAnnextureIIIByIDResponse" message="tns:ILTMSService_GetSendToGovAnnextureIIIByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInTicketInventory">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInTicketInventory" message="tns:ILTMSService_InsertInTicketInventory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInTicketInventoryResponse" message="tns:ILTMSService_InsertInTicketInventory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInTicketInventory">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInTicketInventory" message="tns:ILTMSService_UpdateInTicketInventory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInTicketInventoryResponse" message="tns:ILTMSService_UpdateInTicketInventory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateLotteryNumberDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GenerateLotteryNumberDtlById" message="tns:ILTMSService_GenerateLotteryNumberDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GenerateLotteryNumberDtlByIdResponse" message="tns:ILTMSService_GenerateLotteryNumberDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserInTicketInventoryClaimed">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InserInTicketInventoryClaimed" message="tns:ILTMSService_InserInTicketInventoryClaimed_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InserInTicketInventoryClaimedResponse" message="tns:ILTMSService_InserInTicketInventoryClaimed_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVariableClaimPrizeById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetVariableClaimPrizeById" message="tns:ILTMSService_GetVariableClaimPrizeById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetVariableClaimPrizeByIdResponse" message="tns:ILTMSService_GetVariableClaimPrizeById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVariableClaimByClaimId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetVariableClaimByClaimId" message="tns:ILTMSService_GetVariableClaimByClaimId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetVariableClaimByClaimIdResponse" message="tns:ILTMSService_GetVariableClaimByClaimId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVariableClaimVoucherDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetVariableClaimVoucherDtlById" message="tns:ILTMSService_GetVariableClaimVoucherDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetVariableClaimVoucherDtlByIdResponse" message="tns:ILTMSService_GetVariableClaimVoucherDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInVariableClaimByVoucherId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInVariableClaimByVoucherId" message="tns:ILTMSService_DeleteInVariableClaimByVoucherId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInVariableClaimByVoucherIdResponse" message="tns:ILTMSService_DeleteInVariableClaimByVoucherId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInVariableClaim">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInVariableClaim" message="tns:ILTMSService_UpdateApprovalInVariableClaim_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInVariableClaimResponse" message="tns:ILTMSService_UpdateApprovalInVariableClaim_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserInTicketInventoryUnSold">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InserInTicketInventoryUnSold" message="tns:ILTMSService_InserInTicketInventoryUnSold_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InserInTicketInventoryUnSoldResponse" message="tns:ILTMSService_InserInTicketInventoryUnSold_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryUnsold">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryUnsold" message="tns:ILTMSService_GetLotteryUnsold_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryUnsoldResponse" message="tns:ILTMSService_GetLotteryUnsold_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionTransactionDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionTransactionDtlById" message="tns:ILTMSService_GetRequisitionTransactionDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionTransactionDtlByIdResponse" message="tns:ILTMSService_GetRequisitionTransactionDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInRequisitionChallan">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInRequisitionChallan" message="tns:ILTMSService_UpdateInRequisitionChallan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInRequisitionChallanResponse" message="tns:ILTMSService_UpdateInRequisitionChallan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InserInRequisitionChallan">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InserInRequisitionChallan" message="tns:ILTMSService_InserInRequisitionChallan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InserInRequisitionChallanResponse" message="tns:ILTMSService_InserInRequisitionChallan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionChallanDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionChallanDtlById" message="tns:ILTMSService_GetRequisitionChallanDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionChallanDtlByIdResponse" message="tns:ILTMSService_GetRequisitionChallanDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChallanDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetChallanDtlById" message="tns:ILTMSService_GetChallanDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetChallanDtlByIdResponse" message="tns:ILTMSService_GetChallanDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInChallanById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInChallanById" message="tns:ILTMSService_DeleteInChallanById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInChallanByIdResponse" message="tns:ILTMSService_DeleteInChallanById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisitionChallan">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionChallan" message="tns:ILTMSService_UpdateApprovalInRequisitionChallan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionChallanResponse" message="tns:ILTMSService_UpdateApprovalInRequisitionChallan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVariableIncentiveByReqId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetVariableIncentiveByReqId" message="tns:ILTMSService_GetVariableIncentiveByReqId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetVariableIncentiveByReqIdResponse" message="tns:ILTMSService_GetVariableIncentiveByReqId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerListOfTransactionDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDealerListOfTransactionDtl" message="tns:ILTMSService_GetDealerListOfTransactionDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDealerListOfTransactionDtlResponse" message="tns:ILTMSService_GetDealerListOfTransactionDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerTransactionDtlByReqId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDealerTransactionDtlByReqId" message="tns:ILTMSService_GetDealerTransactionDtlByReqId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDealerTransactionDtlByReqIdResponse" message="tns:ILTMSService_GetDealerTransactionDtlByReqId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProfitLossDtlByReqId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetProfitLossDtlByReqId" message="tns:ILTMSService_GetProfitLossDtlByReqId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetProfitLossDtlByReqIdResponse" message="tns:ILTMSService_GetProfitLossDtlByReqId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInSeriesGeneration">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInSeriesGeneration" message="tns:ILTMSService_InsertInSeriesGeneration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInSeriesGenerationResponse" message="tns:ILTMSService_InsertInSeriesGeneration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInSeriesGeneration">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInSeriesGeneration" message="tns:ILTMSService_UpdateInSeriesGeneration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInSeriesGenerationResponse" message="tns:ILTMSService_UpdateInSeriesGeneration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationAll" message="tns:ILTMSService_GetSeriesGenerationAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationAllResponse" message="tns:ILTMSService_GetSeriesGenerationAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationById" message="tns:ILTMSService_GetSeriesGenerationById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationByIdResponse" message="tns:ILTMSService_GetSeriesGenerationById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationByReqId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationByReqId" message="tns:ILTMSService_GetSeriesGenerationByReqId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationByReqIdResponse" message="tns:ILTMSService_GetSeriesGenerationByReqId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationByReqIdSpecific">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationByReqIdSpecific" message="tns:ILTMSService_GetSeriesGenerationByReqIdSpecific_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationByReqIdSpecificResponse" message="tns:ILTMSService_GetSeriesGenerationByReqIdSpecific_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationListByReqId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationListByReqId" message="tns:ILTMSService_GetSeriesGenerationListByReqId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationListByReqIdResponse" message="tns:ILTMSService_GetSeriesGenerationListByReqId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationByReqIdAndSr1End">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationByReqIdAndSr1End" message="tns:ILTMSService_GetSeriesGenerationByReqIdAndSr1End_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetSeriesGenerationByReqIdAndSr1EndResponse" message="tns:ILTMSService_GetSeriesGenerationByReqIdAndSr1End_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInSeriesGeneration">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInSeriesGeneration" message="tns:ILTMSService_DeleteInSeriesGeneration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInSeriesGenerationResponse" message="tns:ILTMSService_DeleteInSeriesGeneration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInZipProgress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInZipProgress" message="tns:ILTMSService_InsertInZipProgress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInZipProgressResponse" message="tns:ILTMSService_InsertInZipProgress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInZipProgress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInZipProgress" message="tns:ILTMSService_UpdateInZipProgress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInZipProgressResponse" message="tns:ILTMSService_UpdateInZipProgress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInZipProgress">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInZipProgress" message="tns:ILTMSService_DeleteInZipProgress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInZipProgressResponse" message="tns:ILTMSService_DeleteInZipProgress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZipProgressById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetZipProgressById" message="tns:ILTMSService_GetZipProgressById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetZipProgressByIdResponse" message="tns:ILTMSService_GetZipProgressById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInLottery">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInLottery" message="tns:ILTMSService_InsertInLottery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInLotteryResponse" message="tns:ILTMSService_InsertInLottery_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInLottery">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInLottery" message="tns:ILTMSService_UpdateInLottery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInLotteryResponse" message="tns:ILTMSService_UpdateInLottery_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtl" message="tns:ILTMSService_GetLotteryDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlResponse" message="tns:ILTMSService_GetLotteryDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlById" message="tns:ILTMSService_GetLotteryDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlByIdResponse" message="tns:ILTMSService_GetLotteryDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInLottery">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInLottery" message="tns:ILTMSService_DeleteInLottery_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInLotteryResponse" message="tns:ILTMSService_DeleteInLottery_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlByLotteryTypeId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlByLotteryTypeId" message="tns:ILTMSService_GetLotteryDtlByLotteryTypeId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlByLotteryTypeIdResponse" message="tns:ILTMSService_GetLotteryDtlByLotteryTypeId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlByName" message="tns:ILTMSService_GetLotteryDtlByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlByNameResponse" message="tns:ILTMSService_GetLotteryDtlByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInLotteryType">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInLotteryType" message="tns:ILTMSService_InsertInLotteryType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInLotteryTypeResponse" message="tns:ILTMSService_InsertInLotteryType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInLotteryType">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInLotteryType" message="tns:ILTMSService_UpdateInLotteryType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInLotteryTypeResponse" message="tns:ILTMSService_UpdateInLotteryType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryTypeDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryTypeDtl" message="tns:ILTMSService_GetLotteryTypeDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryTypeDtlResponse" message="tns:ILTMSService_GetLotteryTypeDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryTypeDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryTypeDtlById" message="tns:ILTMSService_GetLotteryTypeDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryTypeDtlByIdResponse" message="tns:ILTMSService_GetLotteryTypeDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInLotteryType">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInLotteryType" message="tns:ILTMSService_DeleteInLotteryType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInLotteryTypeResponse" message="tns:ILTMSService_DeleteInLotteryType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInGovermentOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInGovermentOrder" message="tns:ILTMSService_InsertInGovermentOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInGovermentOrderResponse" message="tns:ILTMSService_InsertInGovermentOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInGovermentOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInGovermentOrder" message="tns:ILTMSService_UpdateInGovermentOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInGovermentOrderResponse" message="tns:ILTMSService_UpdateInGovermentOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGovermentOrderDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetGovermentOrderDtl" message="tns:ILTMSService_GetGovermentOrderDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetGovermentOrderDtlResponse" message="tns:ILTMSService_GetGovermentOrderDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGovermentOrderDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetGovermentOrderDtlById" message="tns:ILTMSService_GetGovermentOrderDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetGovermentOrderDtlByIdResponse" message="tns:ILTMSService_GetGovermentOrderDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGovOrderDtlByLotteryId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetGovOrderDtlByLotteryId" message="tns:ILTMSService_GetGovOrderDtlByLotteryId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetGovOrderDtlByLotteryIdResponse" message="tns:ILTMSService_GetGovOrderDtlByLotteryId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInGovermentOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInGovermentOrder" message="tns:ILTMSService_DeleteInGovermentOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInGovermentOrderResponse" message="tns:ILTMSService_DeleteInGovermentOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGovermentOrderDtlbyStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetGovermentOrderDtlbyStatus" message="tns:ILTMSService_GetGovermentOrderDtlbyStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetGovermentOrderDtlbyStatusResponse" message="tns:ILTMSService_GetGovermentOrderDtlbyStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryByApprovedGovOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryByApprovedGovOrder" message="tns:ILTMSService_GetLotteryByApprovedGovOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryByApprovedGovOrderResponse" message="tns:ILTMSService_GetLotteryByApprovedGovOrder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepositToDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDepositToDtl" message="tns:ILTMSService_GetDepositToDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDepositToDtlResponse" message="tns:ILTMSService_GetDepositToDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInUserRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInUserRole" message="tns:ILTMSService_InsertInUserRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInUserRoleResponse" message="tns:ILTMSService_InsertInUserRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInUserRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInUserRole" message="tns:ILTMSService_UpdateInUserRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInUserRoleResponse" message="tns:ILTMSService_UpdateInUserRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserRoleDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetUserRoleDtl" message="tns:ILTMSService_GetUserRoleDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetUserRoleDtlResponse" message="tns:ILTMSService_GetUserRoleDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserRoleDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetUserRoleDtlById" message="tns:ILTMSService_GetUserRoleDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetUserRoleDtlByIdResponse" message="tns:ILTMSService_GetUserRoleDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInUserRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInUserRole" message="tns:ILTMSService_DeleteInUserRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInUserRoleResponse" message="tns:ILTMSService_DeleteInUserRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGetMenuListForUserRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetGetMenuListForUserRole" message="tns:ILTMSService_GetGetMenuListForUserRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetGetMenuListForUserRoleResponse" message="tns:ILTMSService_GetGetMenuListForUserRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNavMenuListForUserRoleId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetNavMenuListForUserRoleId" message="tns:ILTMSService_GetNavMenuListForUserRoleId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetNavMenuListForUserRoleIdResponse" message="tns:ILTMSService_GetNavMenuListForUserRoleId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInPrize">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInPrize" message="tns:ILTMSService_InsertInPrize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInPrizeResponse" message="tns:ILTMSService_InsertInPrize_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInPrize">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInPrize" message="tns:ILTMSService_UpdateInPrize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInPrizeResponse" message="tns:ILTMSService_UpdateInPrize_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrizeDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetPrizeDtl" message="tns:ILTMSService_GetPrizeDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetPrizeDtlResponse" message="tns:ILTMSService_GetPrizeDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrizeDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetPrizeDtlById" message="tns:ILTMSService_GetPrizeDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetPrizeDtlByIdResponse" message="tns:ILTMSService_GetPrizeDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInPrize">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInPrize" message="tns:ILTMSService_DeleteInPrize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInPrizeResponse" message="tns:ILTMSService_DeleteInPrize_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWinnePrizeWinningSlNoDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetWinnePrizeWinningSlNoDtlById" message="tns:ILTMSService_GetWinnePrizeWinningSlNoDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetWinnePrizeWinningSlNoDtlByIdResponse" message="tns:ILTMSService_GetWinnePrizeWinningSlNoDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryWiningSerialNoDtlByLotteryNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryWiningSerialNoDtlByLotteryNo" message="tns:ILTMSService_GetLotteryWiningSerialNoDtlByLotteryNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryWiningSerialNoDtlByLotteryNoResponse" message="tns:ILTMSService_GetLotteryWiningSerialNoDtlByLotteryNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInPrize">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInPrize" message="tns:ILTMSService_UpdateApprovalInPrize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInPrizeResponse" message="tns:ILTMSService_UpdateApprovalInPrize_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInPrizeWinner">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInPrizeWinner" message="tns:ILTMSService_UpdateInPrizeWinner_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInPrizeWinnerResponse" message="tns:ILTMSService_UpdateInPrizeWinner_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWinneListDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetWinneListDtlById" message="tns:ILTMSService_GetWinneListDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetWinneListDtlByIdResponse" message="tns:ILTMSService_GetWinneListDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWinneEntryDtlByRequisitionId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetWinneEntryDtlByRequisitionId" message="tns:ILTMSService_GetWinneEntryDtlByRequisitionId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetWinneEntryDtlByRequisitionIdResponse" message="tns:ILTMSService_GetWinneEntryDtlByRequisitionId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInReqWinnerPrize">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInReqWinnerPrize" message="tns:ILTMSService_UpdateApprovalInReqWinnerPrize_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInReqWinnerPrizeResponse" message="tns:ILTMSService_UpdateApprovalInReqWinnerPrize_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetWinnigSlNoDtlByRequisitionId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetWinnigSlNoDtlByRequisitionId" message="tns:ILTMSService_GetWinnigSlNoDtlByRequisitionId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetWinnigSlNoDtlByRequisitionIdResponse" message="tns:ILTMSService_GetWinnigSlNoDtlByRequisitionId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInUser" message="tns:ILTMSService_InsertInUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInUserResponse" message="tns:ILTMSService_InsertInUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInUser" message="tns:ILTMSService_UpdateInUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInUserResponse" message="tns:ILTMSService_UpdateInUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetUserDtl" message="tns:ILTMSService_GetUserDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetUserDtlResponse" message="tns:ILTMSService_GetUserDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetUserDtlById" message="tns:ILTMSService_GetUserDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetUserDtlByIdResponse" message="tns:ILTMSService_GetUserDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInUser" message="tns:ILTMSService_DeleteInUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInUserResponse" message="tns:ILTMSService_DeleteInUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIsValidUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetIsValidUser" message="tns:ILTMSService_GetIsValidUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetIsValidUserResponse" message="tns:ILTMSService_GetIsValidUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserPassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateUserPassword" message="tns:ILTMSService_UpdateUserPassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateUserPasswordResponse" message="tns:ILTMSService_UpdateUserPassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDtlByEmailOrMobile">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetUserDtlByEmailOrMobile" message="tns:ILTMSService_GetUserDtlByEmailOrMobile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetUserDtlByEmailOrMobileResponse" message="tns:ILTMSService_GetUserDtlByEmailOrMobile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIsMenuAccessAvailable">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetIsMenuAccessAvailable" message="tns:ILTMSService_GetIsMenuAccessAvailable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetIsMenuAccessAvailableResponse" message="tns:ILTMSService_GetIsMenuAccessAvailable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDtlByUserId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetUserDtlByUserId" message="tns:ILTMSService_GetUserDtlByUserId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetUserDtlByUserIdResponse" message="tns:ILTMSService_GetUserDtlByUserId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInDealerDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInDealerDeposit" message="tns:ILTMSService_InsertInDealerDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInDealerDepositResponse" message="tns:ILTMSService_InsertInDealerDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInDealerDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInDealerDeposit" message="tns:ILTMSService_UpdateInDealerDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInDealerDepositResponse" message="tns:ILTMSService_UpdateInDealerDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositViewDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositViewDtl" message="tns:ILTMSService_GetDealerDepositViewDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositViewDtlResponse" message="tns:ILTMSService_GetDealerDepositViewDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositDtlById" message="tns:ILTMSService_GetDealerDepositDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositDtlByIdResponse" message="tns:ILTMSService_GetDealerDepositDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInDealerDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInDealerDeposit" message="tns:ILTMSService_DeleteInDealerDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInDealerDepositResponse" message="tns:ILTMSService_DeleteInDealerDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SpGetDealerDepositReconDtlByStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/SpGetDealerDepositReconDtlByStatus" message="tns:ILTMSService_SpGetDealerDepositReconDtlByStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/SpGetDealerDepositReconDtlByStatusResponse" message="tns:ILTMSService_SpGetDealerDepositReconDtlByStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateReconInDealerDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateReconInDealerDeposit" message="tns:ILTMSService_UpdateReconInDealerDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateReconInDealerDepositResponse" message="tns:ILTMSService_UpdateReconInDealerDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositViewForApprovalDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositViewForApprovalDtl" message="tns:ILTMSService_GetDealerDepositViewForApprovalDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositViewForApprovalDtlResponse" message="tns:ILTMSService_GetDealerDepositViewForApprovalDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInDealerDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInDealerDeposit" message="tns:ILTMSService_UpdateApprovalInDealerDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInDealerDepositResponse" message="tns:ILTMSService_UpdateApprovalInDealerDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInReqDealerDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInReqDealerDeposit" message="tns:ILTMSService_UpdateApprovalInReqDealerDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInReqDealerDepositResponse" message="tns:ILTMSService_UpdateApprovalInReqDealerDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositInHandDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositInHandDtlById" message="tns:ILTMSService_GetDealerDepositInHandDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositInHandDtlByIdResponse" message="tns:ILTMSService_GetDealerDepositInHandDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositDtlByReqId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositDtlByReqId" message="tns:ILTMSService_GetDealerDepositDtlByReqId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDealerDepositDtlByReqIdResponse" message="tns:ILTMSService_GetDealerDepositDtlByReqId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDepositMethodDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDepositMethodDetails" message="tns:ILTMSService_GetDepositMethodDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDepositMethodDetailsResponse" message="tns:ILTMSService_GetDepositMethodDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailToDtlByType">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetEmailToDtlByType" message="tns:ILTMSService_GetEmailToDtlByType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetEmailToDtlByTypeResponse" message="tns:ILTMSService_GetEmailToDtlByType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertInRequisition">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/InsertInRequisition" message="tns:ILTMSService_InsertInRequisition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/InsertInRequisitionResponse" message="tns:ILTMSService_InsertInRequisition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInRequisition">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateInRequisition" message="tns:ILTMSService_UpdateInRequisition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateInRequisitionResponse" message="tns:ILTMSService_UpdateInRequisition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCloseTransactionInRequisition">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateCloseTransactionInRequisition" message="tns:ILTMSService_UpdateCloseTransactionInRequisition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateCloseTransactionInRequisitionResponse" message="tns:ILTMSService_UpdateCloseTransactionInRequisition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSendForAdjustment">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateSendForAdjustment" message="tns:ILTMSService_UpdateSendForAdjustment_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateSendForAdjustmentResponse" message="tns:ILTMSService_UpdateSendForAdjustment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSentAdjustmentDtlByTranNo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetSentAdjustmentDtlByTranNo" message="tns:ILTMSService_GetSentAdjustmentDtlByTranNo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetSentAdjustmentDtlByTranNoResponse" message="tns:ILTMSService_GetSentAdjustmentDtlByTranNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdjustmentDtlByRequisitionId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetAdjustmentDtlByRequisitionId" message="tns:ILTMSService_GetAdjustmentDtlByRequisitionId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetAdjustmentDtlByRequisitionIdResponse" message="tns:ILTMSService_GetAdjustmentDtlByRequisitionId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDtl" message="tns:ILTMSService_GetRequisitionDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDtlResponse" message="tns:ILTMSService_GetRequisitionDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDtlById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDtlById" message="tns:ILTMSService_GetRequisitionDtlById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDtlByIdResponse" message="tns:ILTMSService_GetRequisitionDtlById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInRequisition">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/DeleteInRequisition" message="tns:ILTMSService_DeleteInRequisition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/DeleteInRequisitionResponse" message="tns:ILTMSService_DeleteInRequisition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDtlByStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDtlByStatus" message="tns:ILTMSService_GetRequisitionDtlByStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDtlByStatusResponse" message="tns:ILTMSService_GetRequisitionDtlByStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitiondataForDDL">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitiondataForDDL" message="tns:ILTMSService_GetRequisitiondataForDDL_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitiondataForDDLResponse" message="tns:ILTMSService_GetRequisitiondataForDDL_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBankGuranteeLedger">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetBankGuranteeLedger" message="tns:ILTMSService_GetBankGuranteeLedger_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetBankGuranteeLedgerResponse" message="tns:ILTMSService_GetBankGuranteeLedger_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisition">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisition" message="tns:ILTMSService_UpdateApprovalInRequisition_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionResponse" message="tns:ILTMSService_UpdateApprovalInRequisition_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisitionUnSoldTicket">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionUnSoldTicket" message="tns:ILTMSService_UpdateApprovalInRequisitionUnSoldTicket_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionUnSoldTicketResponse" message="tns:ILTMSService_UpdateApprovalInRequisitionUnSoldTicket_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisitionUnClaimTicket">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionUnClaimTicket" message="tns:ILTMSService_UpdateApprovalInRequisitionUnClaimTicket_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionUnClaimTicketResponse" message="tns:ILTMSService_UpdateApprovalInRequisitionUnClaimTicket_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDtlByStatusForDealerReq">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDtlByStatusForDealerReq" message="tns:ILTMSService_GetRequisitionDtlByStatusForDealerReq_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetRequisitionDtlByStatusForDealerReqResponse" message="tns:ILTMSService_GetRequisitionDtlByStatusForDealerReq_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectorRequisitionDtlByDealerReqId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetDirectorRequisitionDtlByDealerReqId" message="tns:ILTMSService_GetDirectorRequisitionDtlByDealerReqId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetDirectorRequisitionDtlByDealerReqIdResponse" message="tns:ILTMSService_GetDirectorRequisitionDtlByDealerReqId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastDrawDateAndNoDtlByLotteryId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLastDrawDateAndNoDtlByLotteryId" message="tns:ILTMSService_GetLastDrawDateAndNoDtlByLotteryId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLastDrawDateAndNoDtlByLotteryIdResponse" message="tns:ILTMSService_GetLastDrawDateAndNoDtlByLotteryId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlFromRequisitionDtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlFromRequisitionDtl" message="tns:ILTMSService_GetLotteryDtlFromRequisitionDtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlFromRequisitionDtlResponse" message="tns:ILTMSService_GetLotteryDtlFromRequisitionDtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlInClaimAndUnSold">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlInClaimAndUnSold" message="tns:ILTMSService_GetLotteryDtlInClaimAndUnSold_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILTMSService/GetLotteryDtlInClaimAndUnSoldResponse" message="tns:ILTMSService_GetLotteryDtlInClaimAndUnSold_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ILTMSService" type="tns:ILTMSService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUnSoldSummaryById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetUnSoldSummaryById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrintOrderDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetPrintOrderDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInRequisitionDealer">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInRequisitionDealer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInRequisitionDealer">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInRequisitionDealer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDealerDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitionDealerDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDealerDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitionDealerDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInRequisitionDealer">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInRequisitionDealer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDealerDtlByStatus">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitionDealerDtlByStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisitionDealer">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionDealer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserInLotteryClaimEntry">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InserInLotteryClaimEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryClaimEntryDtlByReqCode">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryClaimEntryDtlByReqCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryClaimEntryDtlByStatus">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryClaimEntryDtlByStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryClaimEntryDtlByReqId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryClaimEntryDtlByReqId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInLotteryClaimEntry">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInLotteryClaimEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalByStausInLotteryClaimEntry">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalByStausInLotteryClaimEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryClaimSendToGovDtlByStatus">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryClaimSendToGovDtlByStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClaimSendToGovApprovedDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetClaimSendToGovApprovedDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLotteryClaimEntrySendToGov">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateLotteryClaimEntrySendToGov" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSendToGovAnnextureIIIByID">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetSendToGovAnnextureIIIByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInTicketInventory">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInTicketInventory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInTicketInventory">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInTicketInventory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerateLotteryNumberDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GenerateLotteryNumberDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserInTicketInventoryClaimed">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InserInTicketInventoryClaimed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVariableClaimPrizeById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetVariableClaimPrizeById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVariableClaimByClaimId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetVariableClaimByClaimId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVariableClaimVoucherDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetVariableClaimVoucherDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInVariableClaimByVoucherId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInVariableClaimByVoucherId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInVariableClaim">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInVariableClaim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserInTicketInventoryUnSold">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InserInTicketInventoryUnSold" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryUnsold">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryUnsold" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionTransactionDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitionTransactionDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInRequisitionChallan">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInRequisitionChallan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InserInRequisitionChallan">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InserInRequisitionChallan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionChallanDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitionChallanDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChallanDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetChallanDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInChallanById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInChallanById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisitionChallan">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionChallan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVariableIncentiveByReqId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetVariableIncentiveByReqId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerListOfTransactionDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDealerListOfTransactionDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerTransactionDtlByReqId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDealerTransactionDtlByReqId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProfitLossDtlByReqId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetProfitLossDtlByReqId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInSeriesGeneration">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInSeriesGeneration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInSeriesGeneration">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInSeriesGeneration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationAll">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetSeriesGenerationAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetSeriesGenerationById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationByReqId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetSeriesGenerationByReqId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationByReqIdSpecific">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetSeriesGenerationByReqIdSpecific" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationListByReqId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetSeriesGenerationListByReqId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSeriesGenerationByReqIdAndSr1End">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetSeriesGenerationByReqIdAndSr1End" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInSeriesGeneration">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInSeriesGeneration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInZipProgress">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInZipProgress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInZipProgress">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInZipProgress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInZipProgress">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInZipProgress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZipProgressById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetZipProgressById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInLottery">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInLottery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInLottery">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInLottery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInLottery">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInLottery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlByLotteryTypeId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryDtlByLotteryTypeId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlByName">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryDtlByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInLotteryType">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInLotteryType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInLotteryType">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInLotteryType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryTypeDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryTypeDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryTypeDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryTypeDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInLotteryType">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInLotteryType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInGovermentOrder">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInGovermentOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInGovermentOrder">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInGovermentOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGovermentOrderDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetGovermentOrderDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGovermentOrderDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetGovermentOrderDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGovOrderDtlByLotteryId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetGovOrderDtlByLotteryId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInGovermentOrder">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInGovermentOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGovermentOrderDtlbyStatus">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetGovermentOrderDtlbyStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryByApprovedGovOrder">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryByApprovedGovOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepositToDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDepositToDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInUserRole">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInUserRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInUserRole">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInUserRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserRoleDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetUserRoleDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserRoleDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetUserRoleDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInUserRole">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInUserRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGetMenuListForUserRole">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetGetMenuListForUserRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNavMenuListForUserRoleId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetNavMenuListForUserRoleId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInPrize">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInPrize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInPrize">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInPrize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrizeDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetPrizeDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPrizeDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetPrizeDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInPrize">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInPrize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWinnePrizeWinningSlNoDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetWinnePrizeWinningSlNoDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryWiningSerialNoDtlByLotteryNo">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryWiningSerialNoDtlByLotteryNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInPrize">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInPrize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInPrizeWinner">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInPrizeWinner" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWinneListDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetWinneListDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWinneEntryDtlByRequisitionId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetWinneEntryDtlByRequisitionId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInReqWinnerPrize">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInReqWinnerPrize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetWinnigSlNoDtlByRequisitionId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetWinnigSlNoDtlByRequisitionId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInUser">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInUser">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetUserDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetUserDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInUser">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIsValidUser">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetIsValidUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUserPassword">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateUserPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDtlByEmailOrMobile">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetUserDtlByEmailOrMobile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIsMenuAccessAvailable">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetIsMenuAccessAvailable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDtlByUserId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetUserDtlByUserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInDealerDeposit">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInDealerDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInDealerDeposit">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInDealerDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositViewDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDealerDepositViewDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDealerDepositDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInDealerDeposit">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInDealerDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SpGetDealerDepositReconDtlByStatus">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/SpGetDealerDepositReconDtlByStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateReconInDealerDeposit">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateReconInDealerDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositViewForApprovalDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDealerDepositViewForApprovalDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInDealerDeposit">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInDealerDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInReqDealerDeposit">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInReqDealerDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositInHandDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDealerDepositInHandDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDealerDepositDtlByReqId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDealerDepositDtlByReqId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDepositMethodDetails">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDepositMethodDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailToDtlByType">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetEmailToDtlByType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertInRequisition">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/InsertInRequisition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInRequisition">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateInRequisition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCloseTransactionInRequisition">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateCloseTransactionInRequisition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSendForAdjustment">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateSendForAdjustment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSentAdjustmentDtlByTranNo">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetSentAdjustmentDtlByTranNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdjustmentDtlByRequisitionId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetAdjustmentDtlByRequisitionId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitionDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDtlById">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitionDtlById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteInRequisition">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/DeleteInRequisition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDtlByStatus">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitionDtlByStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitiondataForDDL">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitiondataForDDL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBankGuranteeLedger">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetBankGuranteeLedger" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisition">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInRequisition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisitionUnSoldTicket">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionUnSoldTicket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateApprovalInRequisitionUnClaimTicket">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/UpdateApprovalInRequisitionUnClaimTicket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequisitionDtlByStatusForDealerReq">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetRequisitionDtlByStatusForDealerReq" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDirectorRequisitionDtlByDealerReqId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetDirectorRequisitionDtlByDealerReqId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastDrawDateAndNoDtlByLotteryId">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLastDrawDateAndNoDtlByLotteryId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlFromRequisitionDtl">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryDtlFromRequisitionDtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotteryDtlInClaimAndUnSold">
+      <soap:operation soapAction="http://tempuri.org/ILTMSService/GetLotteryDtlInClaimAndUnSold" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_ILTMSService" binding="tns:BasicHttpBinding_ILTMSService">
+      <soap:address location="http://localhost:50305/LTMSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

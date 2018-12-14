@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/LTMSClass" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/LTMSClass" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ClsRequisition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClaimType" type="xs:int" />
+      <xs:element minOccurs="0" name="DataUniqueId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DrawDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DrawNo" type="xs:int" />
+      <xs:element minOccurs="0" name="GovermentOrderId" type="xs:long" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryId" type="xs:long" />
+      <xs:element minOccurs="0" name="PressDeliveryDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Qty" type="xs:long" />
+      <xs:element minOccurs="0" name="ReqCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReqDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SaveStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="SlabLimit" type="xs:long" />
+      <xs:element minOccurs="0" name="UploadStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsRequisition" nillable="true" type="tns:ClsRequisition" />
+  <xs:complexType name="clsInputParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataUniqueId" type="xs:long" />
+      <xs:element minOccurs="0" name="InFromDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="InStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="InToDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RequestUrl" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsInputParameter" nillable="true" type="tns:clsInputParameter" />
+  <xs:complexType name="ClsLotteryClaimDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Aadhar" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="AadharNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankAccountNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankDtl" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Captcha" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClaimType" type="xs:int" />
+      <xs:element minOccurs="0" name="DataUniqueId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DrawDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DrawNo" type="xs:int" />
+      <xs:element minOccurs="0" name="EmailId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FatherOrGuardianName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IFSCCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryId" type="xs:long" />
+      <xs:element minOccurs="0" name="LotteryName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryTypeId" type="xs:long" />
+      <xs:element minOccurs="0" name="MobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OTP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pan" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="PanNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Photo" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="ProprietorOf" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PwtTicket" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="ReqCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReqDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SaveStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="SoDoWo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Surety" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsLotteryClaimDetails" nillable="true" type="tns:ClsLotteryClaimDetails" />
+  <xs:complexType name="ClsLotteryClaimApprovalDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataUniqueId" type="xs:long" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayableAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SaveStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsLotteryClaimApprovalDetails" nillable="true" type="tns:ClsLotteryClaimApprovalDetails" />
+  <xs:complexType name="ClsTicketInventory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlphabetSeries" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataUniqueId" type="xs:long" />
+      <xs:element minOccurs="0" name="DrawDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DrawNo" type="xs:int" />
+      <xs:element minOccurs="0" name="FnEnd" type="xs:int" />
+      <xs:element minOccurs="0" name="FnStart" type="xs:int" />
+      <xs:element minOccurs="0" name="ID" type="xs:long" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryId" type="xs:long" />
+      <xs:element minOccurs="0" name="ReqCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReqDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SaveStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="StrReqDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TnEnd" type="xs:long" />
+      <xs:element minOccurs="0" name="TnStart" type="xs:long" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsTicketInventory" nillable="true" type="tns:ClsTicketInventory" />
+  <xs:complexType name="ClsLottery">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClaimDays" type="xs:int" />
+      <xs:element minOccurs="0" name="ClaimDaysVariable" type="xs:int" />
+      <xs:element minOccurs="0" name="DataUniqueId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GstRate" type="xs:double" />
+      <xs:element minOccurs="0" name="IncludeConsPrize" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="NoOfDigit" type="xs:int" />
+      <xs:element minOccurs="0" name="PaperQuality" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrizeCategory" type="xs:int" />
+      <xs:element minOccurs="0" name="RateForSpl" type="xs:double" />
+      <xs:element minOccurs="0" name="SizeOfTicket" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SyndicateRate" type="xs:double" />
+      <xs:element minOccurs="0" name="TotTicketRate" type="xs:double" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsLottery" nillable="true" type="tns:ClsLottery" />
+  <xs:complexType name="ClsChallan">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ChallanStatus" type="xs:short" />
+      <xs:element minOccurs="0" name="ConsignmentNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CustomerOrdeDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CustomerOrderNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataUniqueId" type="xs:int" />
+      <xs:element minOccurs="0" name="DeliveredQuantity" type="xs:int" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="No" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoOfBoxBundle" type="xs:int" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RequisitionId" type="xs:long" />
+      <xs:element minOccurs="0" name="SACCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SaveStatus" type="xs:short" />
+      <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransporterName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VehicleNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsChallan" nillable="true" type="tns:ClsChallan" />
+  <xs:complexType name="ClsSeriesGeneration">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID" type="xs:long" />
+      <xs:element minOccurs="0" name="NumEnd" type="xs:long" />
+      <xs:element minOccurs="0" name="NumStart" type="xs:long" />
+      <xs:element minOccurs="0" name="Opmode" type="xs:int" />
+      <xs:element minOccurs="0" name="ReqId" type="xs:int" />
+      <xs:element minOccurs="0" name="Series1End" type="xs:long" />
+      <xs:element minOccurs="0" name="Series1Start" type="xs:long" />
+      <xs:element minOccurs="0" name="Series2End" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Series2Start" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsSeriesGeneration" nillable="true" type="tns:ClsSeriesGeneration" />
+  <xs:complexType name="ZipProgressMaster">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ID" type="xs:long" />
+      <xs:element minOccurs="0" name="ReqCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ZipProgress" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ZipProgressMaster" nillable="true" type="tns:ZipProgressMaster" />
+  <xs:complexType name="ClsLotteryType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataUniqueId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsLotteryType" nillable="true" type="tns:ClsLotteryType" />
+  <xs:complexType name="ClsGovermentOrder">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlphabetName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataUniqueId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GovermentOrder" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryId" type="xs:long" />
+      <xs:element minOccurs="0" name="ModifiedLotteryName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NoOfAlphabet" type="xs:long" />
+      <xs:element minOccurs="0" name="TicketSerialNoTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TicketSeriallNoFrom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TotalTickets" type="xs:long" />
+      <xs:element minOccurs="0" name="UnSoldPercentage" type="xs:double" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsGovermentOrder" nillable="true" type="tns:ClsGovermentOrder" />
+  <xs:complexType name="ClsUserRole">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataUniqueId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Locked" type="xs:boolean" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRole" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsUserRole" nillable="true" type="tns:ClsUserRole" />
+  <xs:complexType name="ClsPrize">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClaimDays" type="xs:int" />
+      <xs:element minOccurs="0" name="DataUniqueId" type="xs:long" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryId" type="xs:long" />
+      <xs:element minOccurs="0" name="LotteryTypeId" type="xs:long" />
+      <xs:element minOccurs="0" name="SaveStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsPrize" nillable="true" type="tns:ClsPrize" />
+  <xs:complexType name="ClsPrizeWinner">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataUniqueId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DrawDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DrawTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JudgesName1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JudgesName2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="JudgesName3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryId" type="xs:long" />
+      <xs:element minOccurs="0" name="PlayingAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SaveStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsPrizeWinner" nillable="true" type="tns:ClsPrizeWinner" />
+  <xs:complexType name="ClsUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataUniqueId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmailId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsFirstTime" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Locked" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MobileNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrxUserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRoleId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsUser" nillable="true" type="tns:ClsUser" />
+  <xs:complexType name="ClsDealerDeposit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BGValidityDay" type="xs:int" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataUniqueId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositAmount" type="xs:double" />
+      <xs:element minOccurs="0" name="DepositDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DepositId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepositMethodId" type="xs:long" />
+      <xs:element minOccurs="0" name="DepositToId" type="xs:int" />
+      <xs:element minOccurs="0" name="IpAdd" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LotteryId" type="xs:long" />
+      <xs:element minOccurs="0" name="ReconDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReconRemarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReqCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SaveStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClsDealerDeposit" nillable="true" type="tns:ClsDealerDeposit" />
+</xs:schema>

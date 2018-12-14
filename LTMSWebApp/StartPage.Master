@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="StartPage.master.cs" Inherits="LTMSWebApp.StartPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="aspctr" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="StartPageResource/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="StartPageResource/css/templatemo-style.css" rel="stylesheet" />
+    <title>West Bengal State Lottery</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container tm-container">
+        <div class="row navbar-row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 navbar-container">
+                <a href="appHome.aspx" class="navbar-brand" id="go-to-top">West Bengal State Lottery</a>
+                <nav class="navbar navbar-full">
+                    <div class="collapse navbar-toggleable-md" id="tmNavbar">
+                        <%--<ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tm-section-1">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tm-section-2">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tm-section-3">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tm-section-4">Contact</a>
+                            </li>
+                        </ul>--%>
+                    </div>
+                </nav>
+                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
+                    &#9776;
+                </button>
+            </div>
+        </div>
+        <div class="tm-page-content">
+            <form id="form1" runat="server">
+                <aspctr:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></aspctr:ToolkitScriptManager>
+                <asp:UpdatePanel ID="UpdatePanel" runat="server">
+                    <ContentTemplate>
+                        <div>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </form>
+            <!-- footer -->
+            <footer class="row tm-footer">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <p class="text-xs-center tm-footer-text">Copyright &copy; 2018 Directorate State Lottery</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- .container -->
+
+    <script src="StartPageResource/js/jquery-1.11.3.min.js"></script>
+    <script src="StartPageResource/js/bootstrap.min.js"></script>
+    <script src="StartPageResource/js/jquery.singlePageNav.min.js"></script>
+</body>
+</html>

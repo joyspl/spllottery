@@ -1,0 +1,1101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{23CE35DB-1F2E-47EA-97EB-4F508BF5E6FE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LTMSWebApp</RootNamespace>
+    <AssemblyName>LTMSWebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\..\..\..\Users\IBM_ADMIN\Downloads\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetZip">
+      <HintPath>..\packages\DotNetZip.1.11.0\lib\net20\DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\CommonDLL\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.4.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.4.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appError.aspx" />
+    <Content Include="appHome.aspx" />
+    <Content Include="appNavigate.aspx" />
+    <Content Include="AppSessionExpired.html" />
+    <Content Include="Content\AppStyleSheet.css" />
+    <Content Include="Content\Images\AddNew.png" />
+    <Content Include="Content\Images\Apply.png" />
+    <Content Include="Content\Images\Back.png" />
+    <Content Include="Content\Images\calendar.png" />
+    <Content Include="Content\Images\Delete.png" />
+    <Content Include="Content\Images\Edit.png" />
+    <Content Include="Content\Images\go.png" />
+    <Content Include="Content\Images\Home.png" />
+    <Content Include="Content\Images\Load.png" />
+    <Content Include="Content\Images\Loading.gif" />
+    <Content Include="Content\Images\logout1.png" />
+    <Content Include="Content\Images\minus.png" />
+    <Content Include="Content\Images\Modify.png" />
+    <Content Include="Content\Images\ModifyData.png" />
+    <Content Include="Content\Images\ModifyTran.png" />
+    <Content Include="Content\Images\Pdf.png" />
+    <Content Include="Content\Images\PdfIcon.png" />
+    <Content Include="Content\Images\plus.png" />
+    <Content Include="Content\Images\Print.png" />
+    <Content Include="Content\Images\Refresh.png" />
+    <Content Include="Content\Images\Search.png" />
+    <Content Include="Content\Images\upload.png" />
+    <Content Include="Content\Images\User.png" />
+    <Content Include="ToTicketToExcel.aspx" />
+    <Content Include="TrxGenerateLot.aspx" />
+    <Content Include="TrxPeriodicMISReport.aspx" />
+    <Content Include="TrxBankGuranteeLedger.aspx" />
+    <Content Include="TrxQrValidation.aspx" />
+    <Content Include="TrxSendForAdjustment.aspx" />
+    <Content Include="TrxDealerDepositApprovalByDirLastFinal.aspx" />
+    <Content Include="TrxDealerDepositApprovalByDirFinal.aspx" />
+    <Content Include="TrxDepositAmountFinal.aspx" />
+    <Content Include="TrxGenerateTicketInventory.aspx" />
+    <Content Include="TrxChallanFirstLevelApproval.aspx" />
+    <Content Include="TrxTicketInventorySettlement.aspx" />
+    <Content Include="TrxValidateTicketAnonymous.aspx" />
+    <Content Include="TrxVariableClaimFinalLevelApproval.aspx" />
+    <Content Include="TrxDepositEntry.aspx" />
+    <Content Include="TrxVariableClaimFirstLevelApproval.aspx" />
+    <Content Include="TrxVariableClaimConfirmByDistributor.aspx" />
+    <Content Include="frmChangePassword.aspx" />
+    <Content Include="frmChangePasswordConfirm.aspx" />
+    <Content Include="GenerateCaptcha.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="MstPrizeFinalLevelApproval.aspx" />
+    <Content Include="MstPrizeSecondLevelApproval.aspx" />
+    <Content Include="MstPrizeFirstLevelApproval.aspx" />
+    <Content Include="MstPrizeWinner.aspx" />
+    <Content Include="MstPrize.aspx" />
+    <Content Include="MstLottery.aspx" />
+    <Content Include="MstUser.aspx" />
+    <Content Include="MstUserRole.aspx" />
+    <Content Include="MstGovermentOrder.aspx" />
+    <Content Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <Content Include="LtmsDataSet.xsc">
+      <DependentUpon>LtmsDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="hxCheckProgress.ashx" />
+    <Content Include="hxDownloader.ashx" />
+    <None Include="LtmsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LtmsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="LtmsDataSet.xss">
+      <DependentUpon>LtmsDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <Content Include="PasswordChange.Master" />
+    <None Include="Properties\PublishProfiles\A.pubxml" />
+    <None Include="Properties\PublishProfiles\AS.pubxml" />
+    <None Include="Properties\PublishProfiles\LtmsPub.pubxml" />
+    <None Include="Properties\PublishProfiles\LTMS_A.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Resource\pug\blank.pug" />
+    <Content Include="Resource\pug\cards.pug" />
+    <Content Include="Resource\pug\charts.pug" />
+    <Content Include="Resource\pug\forgot-password.pug" />
+    <Content Include="Resource\pug\includes\css\core.pug" />
+    <Content Include="Resource\pug\includes\css\custom.pug" />
+    <Content Include="Resource\pug\includes\footer.pug" />
+    <Content Include="Resource\pug\includes\js\core.pug" />
+    <Content Include="Resource\pug\includes\js\custom.pug" />
+    <Content Include="Resource\pug\includes\modals\logout.pug" />
+    <Content Include="Resource\pug\includes\navbar.pug" />
+    <Content Include="Resource\pug\includes\scroll-to-top.pug" />
+    <Content Include="Resource\pug\index.pug" />
+    <Content Include="Resource\pug\login.pug" />
+    <Content Include="Resource\pug\navbar.pug" />
+    <Content Include="Resource\pug\register.pug" />
+    <Content Include="Resource\pug\tables.pug" />
+    <Content Include="Resource\scss\navbar\_navbar_colors.scss" />
+    <Content Include="Resource\scss\navbar\_navbar_fixed.scss" />
+    <Content Include="Resource\scss\navbar\_navbar_global.scss" />
+    <Content Include="Resource\scss\navbar\_navbar_static.scss" />
+    <Content Include="Resource\scss\navbar\_navbar_toggle.scss" />
+    <Content Include="Resource\scss\sb-admin.scss" />
+    <Content Include="Resource\scss\_cards.scss" />
+    <Content Include="Resource\scss\_footer.scss" />
+    <Content Include="Resource\scss\_global.scss" />
+    <Content Include="Resource\scss\_login.scss" />
+    <Content Include="Resource\scss\_mixins.scss" />
+    <Content Include="Resource\scss\_utilities.scss" />
+    <Content Include="Resource\scss\_variables.scss" />
+    <Content Include="Resource\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Resource\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Resource\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Resource\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Resource\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Resource\vendor\font-awesome\less\animated.less" />
+    <Content Include="Resource\vendor\font-awesome\less\bordered-pulled.less" />
+    <Content Include="Resource\vendor\font-awesome\less\core.less" />
+    <Content Include="Resource\vendor\font-awesome\less\fixed-width.less" />
+    <Content Include="Resource\vendor\font-awesome\less\font-awesome.less" />
+    <Content Include="Resource\vendor\font-awesome\less\icons.less" />
+    <Content Include="Resource\vendor\font-awesome\less\larger.less" />
+    <Content Include="Resource\vendor\font-awesome\less\list.less" />
+    <Content Include="Resource\vendor\font-awesome\less\mixins.less" />
+    <Content Include="Resource\vendor\font-awesome\less\path.less" />
+    <Content Include="Resource\vendor\font-awesome\less\rotated-flipped.less" />
+    <Content Include="Resource\vendor\font-awesome\less\screen-reader.less" />
+    <Content Include="Resource\vendor\font-awesome\less\stacked.less" />
+    <Content Include="Resource\vendor\font-awesome\less\variables.less" />
+    <Content Include="Resource\vendor\font-awesome\scss\font-awesome.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_animated.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_core.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_icons.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_larger.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_list.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_mixins.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_path.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_stacked.scss" />
+    <Content Include="Resource\vendor\font-awesome\scss\_variables.scss" />
+    <Content Include="ResourcePages\Instruction.pdf" />
+    <None Include="Service References\LTMSServiceRef\LTMSService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LTMSServiceRef\LTMSService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LTMSServiceRef\LTMSService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LTMSServiceRef\LTMSService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Resource\css\sb-admin.css" />
+    <Content Include="Resource\css\sb-admin.min.css" />
+    <Content Include="Resource\gulpfile.js" />
+    <Content Include="Resource\js\sb-admin-charts.js" />
+    <Content Include="Resource\js\sb-admin-charts.min.js" />
+    <Content Include="Resource\js\sb-admin-datatables.js" />
+    <Content Include="Resource\js\sb-admin-datatables.min.js" />
+    <Content Include="Resource\js\sb-admin.js" />
+    <Content Include="Resource\js\sb-admin.min.js" />
+    <Content Include="Resource\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Resource\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Resource\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Resource\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Resource\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Resource\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Resource\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Resource\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Resource\vendor\chart.js\Chart.bundle.js" />
+    <Content Include="Resource\vendor\chart.js\Chart.bundle.min.js" />
+    <Content Include="Resource\vendor\chart.js\Chart.js" />
+    <Content Include="Resource\vendor\chart.js\Chart.min.js" />
+    <Content Include="Resource\vendor\datatables\dataTables.bootstrap4.css" />
+    <Content Include="Resource\vendor\datatables\dataTables.bootstrap4.js" />
+    <Content Include="Resource\vendor\datatables\jquery.dataTables.js" />
+    <Content Include="Resource\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="Resource\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Resource\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Resource\vendor\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="Resource\vendor\jquery-easing\jquery.easing.js" />
+    <Content Include="Resource\vendor\jquery-easing\jquery.easing.min.js" />
+    <Content Include="Resource\vendor\jquery\jquery.js" />
+    <Content Include="Resource\vendor\jquery\jquery.min.js" />
+    <Content Include="Resource\vendor\popper\popper.js" />
+    <Content Include="Resource\vendor\popper\popper.min.js" />
+    <None Include="Service References\LTMSServiceRef\LTMSService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Service References\LTMSServiceRef\LTMSWebApp.LTMSServiceRef.InserInLotteryClaimEntryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\LTMSServiceRef\LTMSWebApp.LTMSServiceRef.InsertInRequisitionDealerResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\LTMSServiceRef\LTMSWebApp.LTMSServiceRef.InsertInRequisitionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\LTMSServiceRef\LTMSWebApp.LTMSServiceRef.UpdateLotteryClaimEntrySendToGovResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\LTMSServiceRef\LTMSWebApp.LTMSServiceRef.InserInRequisitionChallanResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\LTMSServiceRef\LTMSWebApp.LTMSServiceRef.InsertInSeriesGenerationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\LTMSServiceRef\LTMSWebApp.LTMSServiceRef.InsertInZipProgressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\LTMSServiceRef\Service1.wsdl" />
+    <Content Include="StartPage.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\Images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\Images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\Images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\Images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\Images\ui-icons_222222_256x240.png" />
+    <Content Include="rptViewAppReport.aspx" />
+    <Content Include="MstLotteryType.aspx" />
+    <Content Include="StartPageResource\css\bootstrap.min.css" />
+    <Content Include="StartPageResource\css\templatemo-style.css" />
+    <Content Include="StartPageResource\img\FooterBg.jpg" />
+    <Content Include="StartPageResource\img\Refresh.png" />
+    <Content Include="StartPageResource\img\strip-01.jpg" />
+    <Content Include="StartPageResource\img\strip-02.jpg" />
+    <Content Include="StartPageResource\img\strip-bg-01.jpg" />
+    <Content Include="StartPageResource\img\strip-bg-02.jpg" />
+    <Content Include="StartPageResource\img\strip-bg-03.jpg" />
+    <Content Include="StartPageResource\img\strip-bg-04.jpg" />
+    <Content Include="StartPageResource\img\strip-bg-05.jpg" />
+    <Content Include="StartPageResource\img\strip-bg.jpg" />
+    <Content Include="StartPageResource\js\bootstrap.min.js" />
+    <Content Include="StartPageResource\js\jquery-1.11.3.min.js" />
+    <Content Include="StartPageResource\js\jquery.singlePageNav.min.js" />
+    <Content Include="ToExcel.aspx" />
+    <Content Include="TrxLotteryClaimEntryPrint.aspx" />
+    <Content Include="TrxPrizeApproval.aspx" />
+    <Content Include="TrxDashboard.aspx" />
+    <Content Include="TrxRequisitionApprovalFinalLevel.aspx" />
+    <Content Include="TrxRequisitionApprovalSecondLevel.aspx" />
+    <Content Include="TrxSpecialTicketClaimedFinalLevelApproval.aspx" />
+    <Content Include="TrxSuperTicketClaimedFinalLevelApproval.aspx" />
+    <Content Include="TrxSpecialTicketClaimedSecondLevelApproval.aspx" />
+    <Content Include="MstResultEntryApproval.aspx" />
+    <Content Include="TrxTicketInventoryReport.aspx" />
+    <Content Include="TrxViewSendToGovernmentApprovedDtl.aspx" />
+    <Content Include="TrxViewLotteryClaimEntryPWTSendToGovernment.aspx" />
+    <Content Include="TrxViewLotteryClaimEntryPWTSecondLevelApproval.aspx" />
+    <Content Include="TrxViewLotteryClaimEntryPWTFinalLevelApproval.aspx" />
+    <Content Include="TrxSuperTicketClaimedSecondLevelApproval.aspx" />
+    <Content Include="TrxTicketInventoryChallan.aspx" />
+    <Content Include="TrxTicketTransaction.aspx" />
+    <Content Include="TrxTicketInventoryUnSoldFinalLevelApproval.aspx" />
+    <Content Include="TrxTicketInventoryUnSoldSecondLevelApproval.aspx" />
+    <Content Include="TrxTicketInventoryUnSoldFirstLevelApproval.aspx" />
+    <Content Include="TrxValidateTicket.aspx" />
+    <Content Include="TrxViewLotteryClaimEntrySplTicket.aspx" />
+    <Content Include="TrxViewLotteryClaimEntrySuperTicket.aspx" />
+    <Content Include="TrxViewLotteryClaimEntryPWT.aspx" />
+    <Content Include="TrxTicketInventoryUnSold.aspx" />
+    <Content Include="TrxVariableClaim.aspx" />
+    <Content Include="TrxTicketInventory.aspx" />
+    <Content Include="TrxDealerDepositApprovalBySpl.aspx" />
+    <Content Include="TrxDealerDepositApprovalByDir.aspx" />
+    <Content Include="TrxLotteryClaimBasicDtl.aspx" />
+    <Content Include="TrxLotteryClaimEntry.aspx" />
+    <Content Include="TrxReconLotteryClaimEntry.aspx" />
+    <Content Include="TrxReconDealerDepositbySpl.aspx" />
+    <Content Include="TrxRequisitionByDealerApproval.aspx" />
+    <Content Include="TrxRequisitionByDealer.aspx" />
+    <Content Include="TrxRequisitionApproval.aspx" />
+    <Content Include="TrxRequisition.aspx" />
+    <Content Include="TrxReconDealerDepositbyDir.aspx" />
+    <Content Include="TrxDealerDeposit.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Service References\LTMSServiceRef\LTMSService.disco" />
+    <None Include="Service References\LTMSServiceRef\configuration91.svcinfo" />
+    <None Include="Service References\LTMSServiceRef\configuration.svcinfo" />
+    <None Include="Service References\LTMSServiceRef\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebPageMaster.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="appError.aspx.cs">
+      <DependentUpon>appError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appError.aspx.designer.cs">
+      <DependentUpon>appError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="appHome.aspx.cs">
+      <DependentUpon>appHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appHome.aspx.designer.cs">
+      <DependentUpon>appHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="appNavigate.aspx.cs">
+      <DependentUpon>appNavigate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appNavigate.aspx.designer.cs">
+      <DependentUpon>appNavigate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hxCheckProgress.ashx.cs">
+      <DependentUpon>hxCheckProgress.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="hxDownloader.ashx.cs">
+      <DependentUpon>hxDownloader.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ToTicketToExcel.aspx.cs">
+      <DependentUpon>ToTicketToExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ToTicketToExcel.aspx.designer.cs">
+      <DependentUpon>ToTicketToExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxGenerateLot.aspx.cs">
+      <DependentUpon>TrxGenerateLot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxGenerateLot.aspx.designer.cs">
+      <DependentUpon>TrxGenerateLot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxPeriodicMISReport.aspx.cs">
+      <DependentUpon>TrxPeriodicMISReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxPeriodicMISReport.aspx.designer.cs">
+      <DependentUpon>TrxPeriodicMISReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxBankGuranteeLedger.aspx.cs">
+      <DependentUpon>TrxBankGuranteeLedger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxBankGuranteeLedger.aspx.designer.cs">
+      <DependentUpon>TrxBankGuranteeLedger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxQrValidation.aspx.cs">
+      <DependentUpon>TrxQrValidation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxQrValidation.aspx.designer.cs">
+      <DependentUpon>TrxQrValidation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxSendForAdjustment.aspx.cs">
+      <DependentUpon>TrxSendForAdjustment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxSendForAdjustment.aspx.designer.cs">
+      <DependentUpon>TrxSendForAdjustment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LtmsDataSet.cs">
+      <DependentUpon>LtmsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrxDealerDepositApprovalByDirLastFinal.aspx.cs">
+      <DependentUpon>TrxDealerDepositApprovalByDirLastFinal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxDealerDepositApprovalByDirLastFinal.aspx.designer.cs">
+      <DependentUpon>TrxDealerDepositApprovalByDirLastFinal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxDealerDepositApprovalByDirFinal.aspx.cs">
+      <DependentUpon>TrxDealerDepositApprovalByDirFinal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxDealerDepositApprovalByDirFinal.aspx.designer.cs">
+      <DependentUpon>TrxDealerDepositApprovalByDirFinal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxDepositAmountFinal.aspx.cs">
+      <DependentUpon>TrxDepositAmountFinal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxDepositAmountFinal.aspx.designer.cs">
+      <DependentUpon>TrxDepositAmountFinal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxGenerateTicketInventory.aspx.cs">
+      <DependentUpon>TrxGenerateTicketInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxGenerateTicketInventory.aspx.designer.cs">
+      <DependentUpon>TrxGenerateTicketInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxChallanFirstLevelApproval.aspx.cs">
+      <DependentUpon>TrxChallanFirstLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxChallanFirstLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxChallanFirstLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxTicketInventorySettlement.aspx.cs">
+      <DependentUpon>TrxTicketInventorySettlement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxTicketInventorySettlement.aspx.designer.cs">
+      <DependentUpon>TrxTicketInventorySettlement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxValidateTicketAnonymous.aspx.cs">
+      <DependentUpon>TrxValidateTicketAnonymous.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxValidateTicketAnonymous.aspx.designer.cs">
+      <DependentUpon>TrxValidateTicketAnonymous.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxVariableClaimFinalLevelApproval.aspx.cs">
+      <DependentUpon>TrxVariableClaimFinalLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxVariableClaimFinalLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxVariableClaimFinalLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxDepositEntry.aspx.cs">
+      <DependentUpon>TrxDepositEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxDepositEntry.aspx.designer.cs">
+      <DependentUpon>TrxDepositEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxVariableClaimFirstLevelApproval.aspx.cs">
+      <DependentUpon>TrxVariableClaimFirstLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxVariableClaimFirstLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxVariableClaimFirstLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxVariableClaimConfirmByDistributor.aspx.cs">
+      <DependentUpon>TrxVariableClaimConfirmByDistributor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxVariableClaimConfirmByDistributor.aspx.designer.cs">
+      <DependentUpon>TrxVariableClaimConfirmByDistributor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.aspx.cs">
+      <DependentUpon>frmChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.aspx.designer.cs">
+      <DependentUpon>frmChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePasswordConfirm.aspx.cs">
+      <DependentUpon>frmChangePasswordConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmChangePasswordConfirm.aspx.designer.cs">
+      <DependentUpon>frmChangePasswordConfirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateCaptcha.aspx.cs">
+      <DependentUpon>GenerateCaptcha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenerateCaptcha.aspx.designer.cs">
+      <DependentUpon>GenerateCaptcha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LtmsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LtmsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MstPrizeFinalLevelApproval.aspx.cs">
+      <DependentUpon>MstPrizeFinalLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstPrizeFinalLevelApproval.aspx.designer.cs">
+      <DependentUpon>MstPrizeFinalLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstPrizeSecondLevelApproval.aspx.cs">
+      <DependentUpon>MstPrizeSecondLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstPrizeSecondLevelApproval.aspx.designer.cs">
+      <DependentUpon>MstPrizeSecondLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstPrizeFirstLevelApproval.aspx.cs">
+      <DependentUpon>MstPrizeFirstLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstPrizeFirstLevelApproval.aspx.designer.cs">
+      <DependentUpon>MstPrizeFirstLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstPrizeWinner.aspx.cs">
+      <DependentUpon>MstPrizeWinner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstPrizeWinner.aspx.designer.cs">
+      <DependentUpon>MstPrizeWinner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstPrize.aspx.cs">
+      <DependentUpon>MstPrize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstPrize.aspx.designer.cs">
+      <DependentUpon>MstPrize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstLottery.aspx.cs">
+      <DependentUpon>MstLottery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstLottery.aspx.designer.cs">
+      <DependentUpon>MstLottery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstUser.aspx.cs">
+      <DependentUpon>MstUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstUser.aspx.designer.cs">
+      <DependentUpon>MstUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstUserRole.aspx.cs">
+      <DependentUpon>MstUserRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstUserRole.aspx.designer.cs">
+      <DependentUpon>MstUserRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstGovermentOrder.aspx.cs">
+      <DependentUpon>MstGovermentOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstGovermentOrder.aspx.designer.cs">
+      <DependentUpon>MstGovermentOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordChange.Master.cs">
+      <DependentUpon>PasswordChange.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasswordChange.Master.designer.cs">
+      <DependentUpon>PasswordChange.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="rptViewAppReport.aspx.cs">
+      <DependentUpon>rptViewAppReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rptViewAppReport.aspx.designer.cs">
+      <DependentUpon>rptViewAppReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstLotteryType.aspx.cs">
+      <DependentUpon>MstLotteryType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstLotteryType.aspx.designer.cs">
+      <DependentUpon>MstLotteryType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StartPage.Master.cs">
+      <DependentUpon>StartPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StartPage.Master.designer.cs">
+      <DependentUpon>StartPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ToExcel.aspx.cs">
+      <DependentUpon>ToExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ToExcel.aspx.designer.cs">
+      <DependentUpon>ToExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxLotteryClaimEntryPrint.aspx.cs">
+      <DependentUpon>TrxLotteryClaimEntryPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxLotteryClaimEntryPrint.aspx.designer.cs">
+      <DependentUpon>TrxLotteryClaimEntryPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxPrizeApproval.aspx.cs">
+      <DependentUpon>TrxPrizeApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxPrizeApproval.aspx.designer.cs">
+      <DependentUpon>TrxPrizeApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxDashboard.aspx.cs">
+      <DependentUpon>TrxDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxDashboard.aspx.designer.cs">
+      <DependentUpon>TrxDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxRequisitionApprovalFinalLevel.aspx.cs">
+      <DependentUpon>TrxRequisitionApprovalFinalLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxRequisitionApprovalFinalLevel.aspx.designer.cs">
+      <DependentUpon>TrxRequisitionApprovalFinalLevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxRequisitionApprovalSecondLevel.aspx.cs">
+      <DependentUpon>TrxRequisitionApprovalSecondLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxRequisitionApprovalSecondLevel.aspx.designer.cs">
+      <DependentUpon>TrxRequisitionApprovalSecondLevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxSpecialTicketClaimedFinalLevelApproval.aspx.cs">
+      <DependentUpon>TrxSpecialTicketClaimedFinalLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxSpecialTicketClaimedFinalLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxSpecialTicketClaimedFinalLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxSuperTicketClaimedFinalLevelApproval.aspx.cs">
+      <DependentUpon>TrxSuperTicketClaimedFinalLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxSuperTicketClaimedFinalLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxSuperTicketClaimedFinalLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxSpecialTicketClaimedSecondLevelApproval.aspx.cs">
+      <DependentUpon>TrxSpecialTicketClaimedSecondLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxSpecialTicketClaimedSecondLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxSpecialTicketClaimedSecondLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MstResultEntryApproval.aspx.cs">
+      <DependentUpon>MstResultEntryApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MstResultEntryApproval.aspx.designer.cs">
+      <DependentUpon>MstResultEntryApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxTicketInventoryReport.aspx.cs">
+      <DependentUpon>TrxTicketInventoryReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxTicketInventoryReport.aspx.designer.cs">
+      <DependentUpon>TrxTicketInventoryReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxViewSendToGovernmentApprovedDtl.aspx.cs">
+      <DependentUpon>TrxViewSendToGovernmentApprovedDtl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxViewSendToGovernmentApprovedDtl.aspx.designer.cs">
+      <DependentUpon>TrxViewSendToGovernmentApprovedDtl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntryPWTSendToGovernment.aspx.cs">
+      <DependentUpon>TrxViewLotteryClaimEntryPWTSendToGovernment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntryPWTSendToGovernment.aspx.designer.cs">
+      <DependentUpon>TrxViewLotteryClaimEntryPWTSendToGovernment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntryPWTSecondLevelApproval.aspx.cs">
+      <DependentUpon>TrxViewLotteryClaimEntryPWTSecondLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntryPWTSecondLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxViewLotteryClaimEntryPWTSecondLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntryPWTFinalLevelApproval.aspx.cs">
+      <DependentUpon>TrxViewLotteryClaimEntryPWTFinalLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntryPWTFinalLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxViewLotteryClaimEntryPWTFinalLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxSuperTicketClaimedSecondLevelApproval.aspx.cs">
+      <DependentUpon>TrxSuperTicketClaimedSecondLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxSuperTicketClaimedSecondLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxSuperTicketClaimedSecondLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxTicketInventoryChallan.aspx.cs">
+      <DependentUpon>TrxTicketInventoryChallan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxTicketInventoryChallan.aspx.designer.cs">
+      <DependentUpon>TrxTicketInventoryChallan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxTicketTransaction.aspx.cs">
+      <DependentUpon>TrxTicketTransaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxTicketTransaction.aspx.designer.cs">
+      <DependentUpon>TrxTicketTransaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxTicketInventoryUnSoldFinalLevelApproval.aspx.cs">
+      <DependentUpon>TrxTicketInventoryUnSoldFinalLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxTicketInventoryUnSoldFinalLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxTicketInventoryUnSoldFinalLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxTicketInventoryUnSoldSecondLevelApproval.aspx.cs">
+      <DependentUpon>TrxTicketInventoryUnSoldSecondLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxTicketInventoryUnSoldSecondLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxTicketInventoryUnSoldSecondLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxTicketInventoryUnSoldFirstLevelApproval.aspx.cs">
+      <DependentUpon>TrxTicketInventoryUnSoldFirstLevelApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxTicketInventoryUnSoldFirstLevelApproval.aspx.designer.cs">
+      <DependentUpon>TrxTicketInventoryUnSoldFirstLevelApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxValidateTicket.aspx.cs">
+      <DependentUpon>TrxValidateTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxValidateTicket.aspx.designer.cs">
+      <DependentUpon>TrxValidateTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntrySplTicket.aspx.cs">
+      <DependentUpon>TrxViewLotteryClaimEntrySplTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntrySplTicket.aspx.designer.cs">
+      <DependentUpon>TrxViewLotteryClaimEntrySplTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntrySuperTicket.aspx.cs">
+      <DependentUpon>TrxViewLotteryClaimEntrySuperTicket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntrySuperTicket.aspx.designer.cs">
+      <DependentUpon>TrxViewLotteryClaimEntrySuperTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntryPWT.aspx.cs">
+      <DependentUpon>TrxViewLotteryClaimEntryPWT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxViewLotteryClaimEntryPWT.aspx.designer.cs">
+      <DependentUpon>TrxViewLotteryClaimEntryPWT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxTicketInventoryUnSold.aspx.cs">
+      <DependentUpon>TrxTicketInventoryUnSold.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxTicketInventoryUnSold.aspx.designer.cs">
+      <DependentUpon>TrxTicketInventoryUnSold.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxVariableClaim.aspx.cs">
+      <DependentUpon>TrxVariableClaim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxVariableClaim.aspx.designer.cs">
+      <DependentUpon>TrxVariableClaim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxTicketInventory.aspx.cs">
+      <DependentUpon>TrxTicketInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxTicketInventory.aspx.designer.cs">
+      <DependentUpon>TrxTicketInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxDealerDepositApprovalBySpl.aspx.cs">
+      <DependentUpon>TrxDealerDepositApprovalBySpl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxDealerDepositApprovalBySpl.aspx.designer.cs">
+      <DependentUpon>TrxDealerDepositApprovalBySpl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxDealerDepositApprovalByDir.aspx.cs">
+      <DependentUpon>TrxDealerDepositApprovalByDir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxDealerDepositApprovalByDir.aspx.designer.cs">
+      <DependentUpon>TrxDealerDepositApprovalByDir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxLotteryClaimBasicDtl.aspx.cs">
+      <DependentUpon>TrxLotteryClaimBasicDtl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxLotteryClaimBasicDtl.aspx.designer.cs">
+      <DependentUpon>TrxLotteryClaimBasicDtl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxLotteryClaimEntry.aspx.cs">
+      <DependentUpon>TrxLotteryClaimEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxLotteryClaimEntry.aspx.designer.cs">
+      <DependentUpon>TrxLotteryClaimEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxReconLotteryClaimEntry.aspx.cs">
+      <DependentUpon>TrxReconLotteryClaimEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxReconLotteryClaimEntry.aspx.designer.cs">
+      <DependentUpon>TrxReconLotteryClaimEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxReconDealerDepositbySpl.aspx.cs">
+      <DependentUpon>TrxReconDealerDepositbySpl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxReconDealerDepositbySpl.aspx.designer.cs">
+      <DependentUpon>TrxReconDealerDepositbySpl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxRequisitionByDealerApproval.aspx.cs">
+      <DependentUpon>TrxRequisitionByDealerApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxRequisitionByDealerApproval.aspx.designer.cs">
+      <DependentUpon>TrxRequisitionByDealerApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxRequisitionByDealer.aspx.cs">
+      <DependentUpon>TrxRequisitionByDealer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxRequisitionByDealer.aspx.designer.cs">
+      <DependentUpon>TrxRequisitionByDealer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxRequisitionApproval.aspx.cs">
+      <DependentUpon>TrxRequisitionApproval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxRequisitionApproval.aspx.designer.cs">
+      <DependentUpon>TrxRequisitionApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxRequisition.aspx.cs">
+      <DependentUpon>TrxRequisition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxRequisition.aspx.designer.cs">
+      <DependentUpon>TrxRequisition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxReconDealerDepositbyDir.aspx.cs">
+      <DependentUpon>TrxReconDealerDepositbyDir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxReconDealerDepositbyDir.aspx.designer.cs">
+      <DependentUpon>TrxReconDealerDepositbyDir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrxDealerDeposit.aspx.cs">
+      <DependentUpon>TrxDealerDeposit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrxDealerDeposit.aspx.designer.cs">
+      <DependentUpon>TrxDealerDeposit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LTMSServiceRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationAndCommonFunction.cs" />
+    <Compile Include="WebPageMaster.Master.cs">
+      <DependentUpon>WebPageMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPageMaster.Master.designer.cs">
+      <DependentUpon>WebPageMaster.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LTMSClass\LTMSClass.csproj">
+      <Project>{c229f697-b93a-42e9-9ee8-4cb478594652}</Project>
+      <Name>LTMSClass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\LTMSServiceRef\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="ReportTemplate\rptDealerDepositViewDtl.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptLottery.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptLotteryType.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptRequisitionViewDtl.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptRequisitionApprovalViewDtl.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptPrizeMaster.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptSendToGovAnnextureIII.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptPrintOrder.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptTicketInventoryAdjustment.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptTicketRate.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptWinneListDtl.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptUnSoldSummary.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptVariableClaimPrize.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\RptUnsoldReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\RptUnsoldReportfrormDistributor.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\RptUnsoldReportRemain.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptVariableClaimSpecial.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptVariableClaimSuper.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptProfitLossDtlByReqId.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptBankGuranteeLedger.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptDrawWiseSalesReport.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptFixedPrizeBonousByID.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportTemplate\rptProfitAndLossDtlByReqId.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52128</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52128/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
