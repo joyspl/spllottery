@@ -1,0 +1,938 @@
+C:\Users\IBM_ADMIN\Desktop\Sraswati\LTMSWebApp\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll.config
+C:\Users\IBM_ADMIN\Desktop\Sraswati\LTMSWebApp\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\Users\IBM_ADMIN\Desktop\Sraswati\LTMSWebApp\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\Users\IBM_ADMIN\Desktop\Sraswati\LTMSWebApp\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\Users\IBM_ADMIN\Desktop\Sraswati\LTMSWebApp\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\Users\IBM_ADMIN\Desktop\Sraswati\LTMSWebApp\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll.config
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+F:\Dilip Kumar Shaw\LTMSWebApp\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll.config
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\Users\dola.SARASWATYPRESS.000\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\Users\dola\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\Users\joy\Desktop\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\Users\joy\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\Users\dilip\Desktop\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll.config
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\FINAL BACKUP 030318\LTMSWebApp030318_1032\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll.config
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\AjaxControlToolkit.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+H:\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMS-V052\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\Users\dilip\Desktop\LTMS-V052_050318_0157\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\LTMS\LTMS 060318_1435\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.dll
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\LTMSClass.dll
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\bin\LTMSClass.pdb
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\LTMS\LTMS 060318_1640\LTMSWebApp\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\LTMSWebApp.dll
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\LTMSClass.dll
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\bin\LTMSClass.pdb
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\Users\joy\Desktop\LTMS 090318_1738\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\LTMSWebApp.dll
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\LTMSClass.dll
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\bin\LTMSClass.pdb
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\LTMS\LTMS 090318_1808\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\LTMSWebApp.dll.config
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\AjaxControlToolkit.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\LTMSClass.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\bin\LTMSClass.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+F:\LTMS 100318_1915\LTMSWebApp\bin\LTMSWebApp.dll
+F:\LTMS 100318_1915\LTMSWebApp\bin\LTMSWebApp.pdb
+F:\LTMS 100318_1915\LTMSWebApp\bin\LTMSClass.dll
+F:\LTMS 100318_1915\LTMSWebApp\bin\LTMSClass.pdb
+F:\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+F:\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+F:\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+F:\LTMS 100318_1915\LTMSWebApp\obj\Debug\RdlCompile.cache
+F:\LTMS 100318_1915\LTMSWebApp\obj\Debug\RdlCompile.compiled
+F:\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+F:\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\LTMSWebApp.dll
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\LTMSClass.dll
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\LTMSClass.pdb
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\LTMS\LTMS 100318_1915\LTMSWebApp\bin\ReportTemplate\rptDrawwiseSalesReport.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\ReportTemplate\rptDrawwiseSalesReport.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\LTMSWebApp.dll.config
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\AjaxControlToolkit.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\LTMSClass.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\bin\LTMSClass.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS 270318_1949\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\ReportTemplate\rptDrawwiseSalesReport.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\LTMSWebApp.dll.config
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\AjaxControlToolkit.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\LTMSClass.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\bin\LTMSClass.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V053\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\LTMSWebApp.dll
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\LTMSClass.dll
+E:\LTMS\LTMS_V054\LTMSWebApp\bin\LTMSClass.pdb
+E:\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\LTMSWebApp.dll.config
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\AjaxControlToolkit.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\LTMSClass.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\bin\LTMSClass.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\RdlCompile.compiled
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V054\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+E:\LTMS_V055\LTMSWebApp\bin\LTMSWebApp.dll
+E:\LTMS_V055\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\LTMS_V055\LTMSWebApp\bin\LTMSClass.dll
+E:\LTMS_V055\LTMSWebApp\bin\LTMSClass.pdb
+E:\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\LTMS_V055\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\LTMS_V055\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\LTMSWebApp.dll
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\LTMSClass.dll
+E:\LTMS\LTMS_V055\LTMSWebApp\bin\LTMSClass.pdb
+E:\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\LTMSWebApp.dll.config
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\LTMSClass.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\bin\LTMSClass.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\RdlCompile.cache
+C:\IBMDOC\Personal\Project\VS Project\LTMS\LTMS_V055\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptDrawWiseSalesReport.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptFixedPrizeBonousByID.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptProfitAndLossDtlByReqId.rdlc
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\LTMSWebApp.dll
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\LTMSClass.dll
+E:\LTMS\LTMS_V056\LTMSWebApp\bin\LTMSClass.pdb
+E:\LTMS\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\LTMS\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\LTMS\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\LTMS\LTMS_V056\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\LTMS\LTMS_V056\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\LTMS\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\LTMS\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptDrawWiseSalesReport.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptFixedPrizeBonousByID.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\ReportTemplate\rptProfitAndLossDtlByReqId.rdlc
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\LTMSWebApp.dll
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\LTMSClass.dll
+E:\Dola-home\LTMS_V056\LTMSWebApp\bin\LTMSClass.pdb
+E:\Dola-home\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\Dola-home\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\Dola-home\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\Dola-home\LTMS_V056\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\Dola-home\LTMS_V056\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\Dola-home\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\Dola-home\LTMS_V056\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptDrawWiseSalesReport.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptFixedPrizeBonousByID.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\ReportTemplate\rptProfitAndLossDtlByReqId.rdlc
+E:\Projects\LTMS\LTMSWebApp\bin\LTMSWebApp.dll
+E:\Projects\LTMS\LTMSWebApp\bin\LTMSWebApp.pdb
+E:\Projects\LTMS\LTMSWebApp\bin\LTMSClass.dll
+E:\Projects\LTMS\LTMSWebApp\bin\LTMSClass.pdb
+E:\Projects\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+E:\Projects\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+E:\Projects\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+E:\Projects\LTMS\LTMSWebApp\obj\Debug\RdlCompile.cache
+E:\Projects\LTMS\LTMSWebApp\obj\Debug\RdlCompile.compiled
+E:\Projects\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+E:\Projects\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+E:\Projects\LTMS\LTMSWebApp\bin\EPPlus.dll
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptDrawWiseSalesReport.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptFixedPrizeBonousByID.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\ReportTemplate\rptProfitAndLossDtlByReqId.rdlc
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\LTMSWebApp.dll
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\LTMSWebApp.pdb
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\LTMSClass.dll
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\bin\LTMSClass.pdb
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\obj\Debug\RdlCompile.cache
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\obj\Debug\RdlCompile.compiled
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+F:\LTMS_APPLICATION\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptDrawWiseSalesReport.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptFixedPrizeBonousByID.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\ReportTemplate\rptProfitAndLossDtlByReqId.rdlc
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\LTMSWebApp.dll.config
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\LTMSWebApp.dll
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\LTMSWebApp.pdb
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\LTMSClass.dll
+F:\LTMS_140618\LTMS\LTMSWebApp\bin\LTMSClass.pdb
+F:\LTMS_140618\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+F:\LTMS_140618\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+F:\LTMS_140618\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+F:\LTMS_140618\LTMS\LTMSWebApp\obj\Debug\RdlCompile.cache
+F:\LTMS_140618\LTMS\LTMSWebApp\obj\Debug\RdlCompile.compiled
+F:\LTMS_140618\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+F:\LTMS_140618\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.pdb
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptDealerDepositViewDtl.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptLottery.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptLotteryType.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptRequisitionViewDtl.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptRequisitionApprovalViewDtl.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptPrizeMaster.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptSendToGovAnnextureIII.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptPrintOrder.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptTicketInventoryAdjustment.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptTicketRate.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptWinneListDtl.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptUnSoldSummary.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimPrize.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReport.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportfrormDistributor.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\RptUnsoldReportRemain.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSpecial.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptVariableClaimSuper.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptProfitLossDtlByReqId.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptBankGuranteeLedger.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptDrawwisePrintingCostOfLotteryTicket.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptDrawWiseSalesReport.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptFixedPrizeBonousByID.rdlc
+F:\LTMS\LTMSWebApp\bin\ReportTemplate\rptProfitAndLossDtlByReqId.rdlc
+F:\LTMS\LTMSWebApp\bin\LTMSWebApp.dll.config
+F:\LTMS\LTMSWebApp\bin\LTMSWebApp.dll
+F:\LTMS\LTMSWebApp\bin\LTMSWebApp.pdb
+F:\LTMS\LTMSWebApp\bin\DotNetZip.dll
+F:\LTMS\LTMSWebApp\bin\LTMSClass.dll
+F:\LTMS\LTMSWebApp\bin\Newtonsoft.Json.dll
+F:\LTMS\LTMSWebApp\bin\LTMSClass.pdb
+F:\LTMS\LTMSWebApp\bin\DotNetZip.xml
+F:\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.csprojResolveAssemblyReference.cache
+F:\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.Properties.Resources.resources
+F:\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.csproj.GenerateResource.Cache
+F:\LTMS\LTMSWebApp\obj\Debug\RdlCompile.cache
+F:\LTMS\LTMSWebApp\obj\Debug\RdlCompile.compiled
+F:\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.dll
+F:\LTMS\LTMSWebApp\obj\Debug\LTMSWebApp.pdb

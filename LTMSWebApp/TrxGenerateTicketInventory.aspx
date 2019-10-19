@@ -168,13 +168,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td colspan="3">
+                                        <td colspan="2">
+                                            <asp:DropDownList ID="ddlDownloadOrder" runat="server" Visible="false">
+                                                <asp:ListItem Value="0" Text="Decending"></asp:ListItem>
+                                                <asp:ListItem Value="1" Text="Ascending"></asp:ListItem>
+                                            </asp:DropDownList>
+                                        </td>
+                                        <td colspan="2">
                                             <asp:Button ID="btnZip" CssClass="btn btn-warning" Text="Download All" runat="server" AccessKey="Z" ToolTip="Cancel (Alt + Z)" OnClick="btnZip_Click" />
                                         </td>
                                         <%--<td colspan="3">
                                             <asp:Button ID="btnDownloadAllLots" CssClass="btn btn-warning" Text="Download All Lots" runat="server" AccessKey="Q" ToolTip="Cancel (Alt + Q)" OnClick="btnDownloadAllLots_Click" />
                                         </td>--%>
-                                        <td colspan="9">
+                                        <td colspan="8">
                                             <asp:Label runat="server" ID="lblProgress"></asp:Label>
                                         </td>
                                     </tr>

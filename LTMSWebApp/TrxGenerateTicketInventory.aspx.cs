@@ -550,8 +550,14 @@ namespace LTMSWebApp
 
         protected void btnZip_Click(object sender, EventArgs e)
         {
+            string finalFilename = string.Empty;
             try
             {
+                //string[] splitDate = txtDrawDate.Text.Trim().Split('-');
+                string lotInfo = ddlLotInfo.SelectedItem.Text.Trim().Replace(" ", "").Replace("Series1", "").Replace("Series2", "").Replace("(", "").Replace(")", "").Replace("No.", "").Replace(",", "").Replace("-", "#").Replace("~", "-").Replace("#", "-");
+                //finalFilename = string.Format("{0}_{1}", txtDrawNo.Text.Trim(), splitDate[0].Trim().ToUpper(), splitDate[1].ToUpper().Trim(), splitDate[2].Trim().Substring(splitDate[2].Trim().Length - 2).ToUpper(), lotInfo.Replace("-", "_"));
+                finalFilename = string.Format("{0}_{1}{2}", (ddlLotInfo.SelectedIndex).ToString("D3"), txtReqCode.Text.Trim().ToUpper().Replace("/", ""), lotInfo.Replace("-", "_"));
+
                 int chunkSize = 2 * 1024; // 2KB
                 List<string> inputFiles = new List<string>();
                 string ZipID = string.Empty;
@@ -561,7 +567,8 @@ namespace LTMSWebApp
                 var userObj = ((ClsUserInfo)Session["UserInfo"]);
                 bool IsAdded = objLtmsService.InsertInZipProgress(new ZipProgressMaster() { UserId = userObj.UserId, ReqCode = txtReqCode.Text }, out ZipID);
                 hdnUserID.Value = userObj.UserId;
-                hdnReqCode.Value = txtReqCode.Text.Replace("/", "");
+                //hdnReqCode.Value = txtReqCode.Text.Replace("/", "");
+                hdnReqCode.Value = HttpUtility.UrlEncode(finalFilename);
                 btnZip.Enabled = false;
                 try
                 {
@@ -663,7 +670,7 @@ namespace LTMSWebApp
                                     objClsTicketGenRequest.InsertedId = Convert.ToInt64(!string.IsNullOrWhiteSpace(lblInsertedId.Text.Trim()) ? lblInsertedId.Text.Trim() : "0");
 
                                     currentPointer += 1;
-                                    var filepath = CreateAndGenerateTextFile(objClsTicketGenRequest, userObj, zipid, ((currentPointer * 100) / totalRecords));
+                                    var filepath = CreateAndGenerateTextFile(objClsTicketGenRequest, userObj, zipid, ((currentPointer * 100) / totalRecords), currentPointer, finalFilename);
                                     if (!string.IsNullOrWhiteSpace(filepath))
                                     {
                                         inputFiles.Add(filepath);
@@ -678,17 +685,25 @@ namespace LTMSWebApp
                             {
                                 Directory.CreateDirectory(Server.MapPath(string.Format("~/Downloads/merged/{0}/", userObj.UserId)));
                             }
-                            if (File.Exists(Server.MapPath(string.Format("~/Downloads/merged/{0}/{1}.txt", userObj.UserId, txtReqCode.Text.Replace("/", "")))))
+
+                            /*if (File.Exists(Server.MapPath(string.Format("~/Downloads/merged/{0}/{1}.txt", userObj.UserId, txtReqCode.Text.Replace("/", "")))))
                             {
                                 File.Delete(Server.MapPath(string.Format("~/Downloads/merged/{0}/{1}.txt", userObj.UserId, txtReqCode.Text.Replace("/", ""))));
+                            }*/
+                            if (File.Exists(Server.MapPath(string.Format("~/Downloads/merged/{0}/{1}.txt", userObj.UserId, finalFilename))))
+                            {
+                                File.Delete(Server.MapPath(string.Format("~/Downloads/merged/{0}/{1}.txt", userObj.UserId, finalFilename)));
                             }
                             
-                            using (var output = File.Create(Server.MapPath(string.Format("~/Downloads/merged/{0}/{1}.txt", userObj.UserId, txtReqCode.Text.Replace("/", "")))))
+                            //using (var output = File.Create(Server.MapPath(string.Format("~/Downloads/merged/{0}/{1}.txt", userObj.UserId, txtReqCode.Text.Replace("/", "")))))
+                            using (var output = File.Create(Server.MapPath(string.Format("~/Downloads/merged/{0}/{1}.txt", userObj.UserId, finalFilename))))
                             {
                                 StringBuilder sbl = new StringBuilder();
                                 sbl.AppendLine("LotteryNo.,QRUrl");
                                 var ln1 = new UTF8Encoding(true).GetBytes(sbl.ToString());
                                 output.Write(ln1, 0, ln1.Length);
+                                //foreach (var file in (ddlDownloadOrder.SelectedValue == "0" ? inputFiles.OrderByDescending(x => x.ToString()).ToList() : inputFiles))
+                                inputFiles.Reverse();
                                 foreach (var file in inputFiles)
                                 {
                                     using (var input = File.OpenRead(file))
@@ -809,7 +824,7 @@ namespace LTMSWebApp
             return fullFilePath;
         }
 
-        private string CreateAndGenerateTextFile(ClsTicketGenRequest objClsTicketGenRequest, ClsUserInfo userObj, long zipid, int percent)
+        private string CreateAndGenerateTextFile(ClsTicketGenRequest objClsTicketGenRequest, ClsUserInfo userObj, long zipid, int percent, int sequenceno = 0, string finalFilename = "")
         {
             string QRUrl = System.Web.Configuration.WebConfigurationManager.AppSettings["QRUrl"].ToString() + "?JB=";
             StringBuilder strReport = new StringBuilder();
@@ -834,7 +849,8 @@ namespace LTMSWebApp
                 objGeneratedNo.StrReqDate = objGeneratedNo.ReqDate.Minute.ToString();
                 Int64 FnStartRange = objClsTicketGenRequest.TnStart;
                 Int64 FnEndRange = objClsTicketGenRequest.TnEnd;
-                string FileName = objClsTicketGenRequest.RowNo.ToString() + "_DR" + objGeneratedNo.DrawNo + "_" + Convert.ToDateTime(objGeneratedNo.DrawDate).ToString("ddMMMyyyy").ToUpper() + "_" + objGeneratedNo.ReqCode.Replace("/", "") + "_" + FnStartRange.ToString() + "_" + FnEndRange.ToString() + ".txt";
+                //string FileName = objClsTicketGenRequest.RowNo.ToString() + "_DR" + objGeneratedNo.DrawNo + "_" + Convert.ToDateTime(objGeneratedNo.DrawDate).ToString("ddMMMyyyy").ToUpper() + "_" + objGeneratedNo.ReqCode.Replace("/", "") + "_" + FnStartRange.ToString() + "_" + FnEndRange.ToString() + ".txt";
+                string FileName = string.Format("{0}.txt", sequenceno);
                 int FnStart = objGeneratedNo.FnStart;
                 int FnEnd = objGeneratedNo.FnEnd;
                 string AlphabetSeries = objGeneratedNo.AlphabetSeries;
@@ -871,7 +887,8 @@ namespace LTMSWebApp
                 }
                 dt.AcceptChanges();
 
-                string directoryPath = Server.MapPath(string.Format("~/Downloads/{0}/{1}/", userObj.UserId, objGeneratedNo.ReqCode.Replace("/", "")));
+                //string directoryPath = Server.MapPath(string.Format("~/Downloads/{0}/{1}/", userObj.UserId, objGeneratedNo.ReqCode.Replace("/", "")));
+                string directoryPath = Server.MapPath(string.Format("~/Downloads/{0}/{1}/", userObj.UserId, finalFilename));
                 fullFilePath = directoryPath + FileName;
                 if (!Directory.Exists(directoryPath))
                 {

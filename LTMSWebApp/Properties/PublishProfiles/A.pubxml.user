@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\joy\Documents\LTMS\A</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appError.aspx">
+      <publishTime>11/15/2017 23:31:32</publishTime>
+    </File>
+    <File Include="appHome.aspx">
+      <publishTime>01/24/2018 22:28:30</publishTime>
+    </File>
+    <File Include="appNavigate.aspx">
+      <publishTime>11/15/2017 22:59:44</publishTime>
+    </File>
+    <File Include="AppSessionExpired.html">
+      <publishTime>11/16/2017 13:49:56</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>02/19/2013 21:54:18</publishTime>
+    </File>
+    <File Include="bin/LTMSClass.dll">
+      <publishTime>03/02/2018 11:33:04</publishTime>
+    </File>
+    <File Include="bin/LTMSWebApp.dll">
+      <publishTime>03/02/2018 19:00:44</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptDealerDepositViewDtl.rdlc">
+      <publishTime>12/09/2017 00:37:08</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptLottery.rdlc">
+      <publishTime>01/26/2018 12:58:20</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptLotteryType.rdlc">
+      <publishTime>11/05/2017 06:50:54</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptPrizeMaster.rdlc">
+      <publishTime>12/10/2017 13:31:06</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptRequisitionApprovalViewDtl.rdlc">
+      <publishTime>11/10/2017 20:40:20</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptRequisitionViewDtl.rdlc">
+      <publishTime>11/10/2017 20:31:06</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptSendToGovAnnextureIII.rdlc">
+      <publishTime>02/07/2018 00:47:46</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptUnSoldSummary.rdlc">
+      <publishTime>02/27/2018 09:52:16</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptVariableClaimPrize.rdlc">
+      <publishTime>03/01/2018 19:25:38</publishTime>
+    </File>
+    <File Include="bin/ReportTemplate/rptWinneListDtl.rdlc">
+      <publishTime>03/02/2018 01:10:42</publishTime>
+    </File>
+    <File Include="Content/AppStyleSheet.css">
+      <publishTime>01/27/2018 10:14:12</publishTime>
+    </File>
+    <File Include="Content/Images/AddNew.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/Apply.png">
+      <publishTime>12/21/2017 09:18:54</publishTime>
+    </File>
+    <File Include="Content/Images/Back.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/calendar.png">
+      <publishTime>11/09/2017 14:25:34</publishTime>
+    </File>
+    <File Include="Content/Images/Delete.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/Edit.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/go.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/Home.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/Loading.gif">
+      <publishTime>12/21/2017 09:24:30</publishTime>
+    </File>
+    <File Include="Content/Images/logout1.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/minus.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/Modify.png">
+      <publishTime>01/01/2018 20:17:36</publishTime>
+    </File>
+    <File Include="Content/Images/ModifyData.png">
+      <publishTime>01/01/2018 21:44:32</publishTime>
+    </File>
+    <File Include="Content/Images/ModifyTran.png">
+      <publishTime>01/01/2018 21:46:14</publishTime>
+    </File>
+    <File Include="Content/Images/Pdf.png">
+      <publishTime>01/27/2018 18:34:48</publishTime>
+    </File>
+    <File Include="Content/Images/PdfIcon.png">
+      <publishTime>01/27/2018 18:32:20</publishTime>
+    </File>
+    <File Include="Content/Images/plus.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/Print.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/Refresh.png">
+      <publishTime>12/02/2017 11:48:52</publishTime>
+    </File>
+    <File Include="Content/Images/Search.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>10/27/2017 18:18:16</publishTime>
+    </File>
+    <File Include="Content/Images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>10/27/2017 18:18:14</publishTime>
+    </File>
+    <File Include="Content/Images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>10/27/2017 18:18:14</publishTime>
+    </File>
+    <File Include="Content/Images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>10/27/2017 18:18:14</publishTime>
+    </File>
+    <File Include="Content/Images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>10/27/2017 18:18:14</publishTime>
+    </File>
+    <File Include="Content/Images/ui-icons_222222_256x240.png">
+      <publishTime>10/27/2017 18:18:14</publishTime>
+    </File>
+    <File Include="Content/Images/upload.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Content/Images/User.png">
+      <publishTime>11/02/2017 20:00:14</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>02/06/2018 09:13:34</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/27/2017 13:55:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/27/2017 13:55:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/27/2017 13:55:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/27/2017 13:55:10</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/27/2017 13:55:10</publishTime>
+    </File>
+    <File Include="frmChangePassword.aspx">
+      <publishTime>01/09/2018 17:01:48</publishTime>
+    </File>
+    <File Include="frmChangePasswordConfirm.aspx">
+      <publishTime>01/09/2018 19:38:38</publishTime>
+    </File>
+    <File Include="GenerateCaptcha.aspx">
+      <publishTime>12/02/2017 11:34:58</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/27/2017 13:54:24</publishTime>
+    </File>
+    <File Include="LtmsDataSet.xsc">
+      <publishTime>03/02/2018 16:27:53</publishTime>
+    </File>
+    <File Include="LtmsDataSet.xss">
+      <publishTime>03/02/2018 16:27:53</publishTime>
+    </File>
+    <File Include="MstGovermentOrder.aspx">
+      <publishTime>02/26/2018 14:52:09</publishTime>
+    </File>
+    <File Include="MstLottery.aspx">
+      <publishTime>02/26/2018 16:01:56</publishTime>
+    </File>
+    <File Include="MstLotteryType.aspx">
+      <publishTime>01/31/2018 23:17:02</publishTime>
+    </File>
+    <File Include="MstPrize.aspx">
+      <publishTime>02/20/2018 00:25:04</publishTime>
+    </File>
+    <File Include="MstPrizeFinalLevelApproval.aspx">
+      <publishTime>01/27/2018 18:05:32</publishTime>
+    </File>
+    <File Include="MstPrizeFirstLevelApproval.aspx">
+      <publishTime>01/27/2018 18:05:46</publishTime>
+    </File>
+    <File Include="MstPrizeSecondLevelApproval.aspx">
+      <publishTime>01/27/2018 18:05:58</publishTime>
+    </File>
+    <File Include="MstPrizeWinner.aspx">
+      <publishTime>02/06/2018 23:33:00</publishTime>
+    </File>
+    <File Include="MstPrizeWinnerApprovalFirstLevel.aspx">
+      <publishTime>03/02/2018 15:49:30</publishTime>
+    </File>
+    <File Include="MstUser.aspx">
+      <publishTime>01/27/2018 10:18:04</publishTime>
+    </File>
+    <File Include="MstUserRole.aspx">
+      <publishTime>01/27/2018 10:18:16</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/27/2017 13:55:10</publishTime>
+    </File>
+    <File Include="PasswordChange.Master">
+      <publishTime>01/09/2018 16:08:38</publishTime>
+    </File>
+    <File Include="Properties/DataSources/System.Data.DataSet.datasource">
+      <publishTime>11/19/2017 13:06:42</publishTime>
+    </File>
+    <File Include="Properties/DataSources/System.Data.DataTable.datasource">
+      <publishTime>10/31/2017 09:28:06</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptDealerDepositViewDtl.rdlc">
+      <publishTime>12/09/2017 00:37:08</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptLottery.rdlc">
+      <publishTime>01/26/2018 12:58:20</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptLotteryType.rdlc">
+      <publishTime>11/05/2017 06:50:54</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptPrizeMaster.rdlc">
+      <publishTime>12/10/2017 13:31:06</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptRequisitionApprovalViewDtl.rdlc">
+      <publishTime>11/10/2017 20:40:20</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptRequisitionViewDtl.rdlc">
+      <publishTime>11/10/2017 20:31:06</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptSendToGovAnnextureIII.rdlc">
+      <publishTime>02/07/2018 00:47:46</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptUnSoldSummary.rdlc">
+      <publishTime>02/27/2018 09:52:16</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptVariableClaimPrize.rdlc">
+      <publishTime>03/01/2018 19:25:38</publishTime>
+    </File>
+    <File Include="ReportTemplate/rptWinneListDtl.rdlc">
+      <publishTime>03/02/2018 01:10:42</publishTime>
+    </File>
+    <File Include="Resource/css/sb-admin.css">
+      <publishTime>01/27/2018 17:09:12</publishTime>
+    </File>
+    <File Include="Resource/css/sb-admin.min.css">
+      <publishTime>01/26/2018 21:47:40</publishTime>
+    </File>
+    <File Include="Resource/gulpfile.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/js/sb-admin-charts.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/js/sb-admin-charts.min.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/js/sb-admin-datatables.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/js/sb-admin-datatables.min.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/js/sb-admin.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/js/sb-admin.min.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/blank.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/cards.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/charts.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/forgot-password.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/includes/css/core.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/includes/css/custom.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/includes/footer.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/includes/js/core.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/includes/js/custom.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/includes/modals/logout.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/includes/navbar.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/includes/scroll-to-top.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/index.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/login.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/navbar.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/register.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/pug/tables.pug">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/navbar/_navbar_colors.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/navbar/_navbar_fixed.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/navbar/_navbar_global.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/navbar/_navbar_static.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/navbar/_navbar_toggle.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/sb-admin.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/_cards.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/_footer.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/_global.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/_login.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/_mixins.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/_utilities.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/scss/_variables.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/bootstrap/css/bootstrap-grid.css">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/bootstrap/css/bootstrap-reboot.css">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/bootstrap/css/bootstrap.css">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>02/21/2018 23:41:43</publishTime>
+    </File>
+    <File Include="Resource/vendor/bootstrap/js/bootstrap.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/chart.js/Chart.bundle.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/chart.js/Chart.bundle.min.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/chart.js/Chart.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/chart.js/Chart.min.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/datatables/dataTables.bootstrap4.css">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/datatables/dataTables.bootstrap4.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/datatables/jquery.dataTables.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/css/font-awesome.css">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/css/font-awesome.min.css">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/animated.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/bordered-pulled.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/core.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/fixed-width.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/font-awesome.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/icons.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/larger.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/list.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/mixins.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/path.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/rotated-flipped.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/screen-reader.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/stacked.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/less/variables.less">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/font-awesome.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_animated.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_core.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_fixed-width.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_icons.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_larger.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_list.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_mixins.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_path.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_screen-reader.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_stacked.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/font-awesome/scss/_variables.scss">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/jquery-easing/jquery.easing.compatibility.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/jquery-easing/jquery.easing.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/jquery-easing/jquery.easing.min.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/jquery/jquery.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/jquery/jquery.min.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/popper/popper.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="Resource/vendor/popper/popper.min.js">
+      <publishTime>12/05/2017 08:29:54</publishTime>
+    </File>
+    <File Include="ResourcePages/Instruction.pdf">
+      <publishTime>01/12/2018 17:33:56</publishTime>
+    </File>
+    <File Include="rptViewAppReport.aspx">
+      <publishTime>12/05/2017 12:41:30</publishTime>
+    </File>
+    <File Include="Service References/LTMSServiceRef/LTMSWebApp.LTMSServiceRef.InserInLotteryClaimEntryResponse.datasource">
+      <publishTime>03/02/2018 17:01:21</publishTime>
+    </File>
+    <File Include="Service References/LTMSServiceRef/LTMSWebApp.LTMSServiceRef.InsertInRequisitionDealerResponse.datasource">
+      <publishTime>03/02/2018 17:01:21</publishTime>
+    </File>
+    <File Include="Service References/LTMSServiceRef/LTMSWebApp.LTMSServiceRef.InsertInRequisitionResponse.datasource">
+      <publishTime>03/02/2018 17:01:21</publishTime>
+    </File>
+    <File Include="Service References/LTMSServiceRef/LTMSWebApp.LTMSServiceRef.UpdateLotteryClaimEntrySendToGovResponse.datasource">
+      <publishTime>03/02/2018 17:01:21</publishTime>
+    </File>
+    <File Include="StartPage.Master">
+      <publishTime>02/06/2018 09:00:06</publishTime>
+    </File>
+    <File Include="StartPageResource/css/bootstrap.min.css">
+      <publishTime>01/26/2018 21:38:26</publishTime>
+    </File>
+    <File Include="StartPageResource/css/templatemo-style.css">
+      <publishTime>02/06/2018 09:00:12</publishTime>
+    </File>
+    <File Include="StartPageResource/img/FooterBg.jpg">
+      <publishTime>02/06/2018 08:59:58</publishTime>
+    </File>
+    <File Include="StartPageResource/img/Refresh.png">
+      <publishTime>12/02/2017 12:08:12</publishTime>
+    </File>
+    <File Include="StartPageResource/img/strip-01.jpg">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/img/strip-02.jpg">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/img/strip-bg-01.jpg">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/img/strip-bg-02.jpg">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/img/strip-bg-03.jpg">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/img/strip-bg-04.jpg">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/img/strip-bg-05.jpg">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/img/strip-bg.jpg">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/js/bootstrap.min.js">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/js/jquery-1.11.3.min.js">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="StartPageResource/js/jquery.singlePageNav.min.js">
+      <publishTime>11/30/2017 08:19:58</publishTime>
+    </File>
+    <File Include="ToExcel.aspx">
+      <publishTime>01/02/2018 20:41:32</publishTime>
+    </File>
+    <File Include="TrxDashboard.aspx">
+      <publishTime>02/21/2018 23:45:41</publishTime>
+    </File>
+    <File Include="TrxDealerDeposit.aspx">
+      <publishTime>01/27/2018 10:18:38</publishTime>
+    </File>
+    <File Include="TrxDealerDepositApprovalByDir.aspx">
+      <publishTime>01/27/2018 10:18:48</publishTime>
+    </File>
+    <File Include="TrxDealerDepositApprovalByDirFinal.aspx">
+      <publishTime>03/02/2018 10:33:40</publishTime>
+    </File>
+    <File Include="TrxDealerDepositApprovalByDirLastFinal.aspx">
+      <publishTime>03/02/2018 10:33:02</publishTime>
+    </File>
+    <File Include="TrxDealerDepositApprovalBySpl.aspx">
+      <publishTime>01/27/2018 10:18:58</publishTime>
+    </File>
+    <File Include="TrxDepositAmountFinal.aspx">
+      <publishTime>03/01/2018 23:43:09</publishTime>
+    </File>
+    <File Include="TrxDepositEntry.aspx">
+      <publishTime>02/28/2018 19:12:19</publishTime>
+    </File>
+    <File Include="TrxLotteryClaimBasicDtl.aspx">
+      <publishTime>01/12/2018 19:04:14</publishTime>
+    </File>
+    <File Include="TrxLotteryClaimEntry.aspx">
+      <publishTime>02/01/2018 22:03:26</publishTime>
+    </File>
+    <File Include="TrxLotteryClaimEntryPrint.aspx">
+      <publishTime>02/01/2018 22:08:54</publishTime>
+    </File>
+    <File Include="TrxPrizeApproval.aspx">
+      <publishTime>01/27/2018 10:19:48</publishTime>
+    </File>
+    <File Include="TrxReconDealerDepositbyDir.aspx">
+      <publishTime>01/27/2018 10:19:56</publishTime>
+    </File>
+    <File Include="TrxReconDealerDepositbySpl.aspx">
+      <publishTime>01/27/2018 10:20:04</publishTime>
+    </File>
+    <File Include="TrxReconLotteryClaimEntry.aspx">
+      <publishTime>01/27/2018 10:20:12</publishTime>
+    </File>
+    <File Include="TrxRequisition.aspx">
+      <publishTime>02/07/2018 00:53:26</publishTime>
+    </File>
+    <File Include="TrxRequisitionApproval.aspx">
+      <publishTime>01/31/2018 23:13:48</publishTime>
+    </File>
+    <File Include="TrxRequisitionApprovalFinalLevel.aspx">
+      <publishTime>01/31/2018 23:13:58</publishTime>
+    </File>
+    <File Include="TrxRequisitionApprovalSecondLevel.aspx">
+      <publishTime>01/31/2018 23:14:10</publishTime>
+    </File>
+    <File Include="TrxRequisitionByDealer.aspx">
+      <publishTime>02/06/2018 09:44:56</publishTime>
+    </File>
+    <File Include="TrxRequisitionByDealerApproval.aspx">
+      <publishTime>01/27/2018 10:20:54</publishTime>
+    </File>
+    <File Include="TrxSpecialTicketClaimedFinalLevelApproval.aspx">
+      <publishTime>02/01/2018 22:26:24</publishTime>
+    </File>
+    <File Include="TrxSpecialTicketClaimedSecondLevelApproval.aspx">
+      <publishTime>02/05/2018 22:55:12</publishTime>
+    </File>
+    <File Include="TrxSuperTicketClaimedFinalLevelApproval.aspx">
+      <publishTime>02/01/2018 22:26:24</publishTime>
+    </File>
+    <File Include="TrxSuperTicketClaimedSecondLevelApproval.aspx">
+      <publishTime>02/05/2018 23:00:48</publishTime>
+    </File>
+    <File Include="TrxTicketInventory.aspx">
+      <publishTime>01/27/2018 10:51:48</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryAdjustment.aspx">
+      <publishTime>03/02/2018 17:01:47</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryChallan.aspx">
+      <publishTime>01/31/2018 23:49:12</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryClaimed.aspx">
+      <publishTime>02/16/2018 10:50:44</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryClaimed1stApproved.aspx">
+      <publishTime>02/28/2018 16:15:10</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryClaimed82.aspx">
+      <publishTime>02/27/2018 20:07:43</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryClaimedFInalApproved.aspx">
+      <publishTime>02/28/2018 15:10:36</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryClaimedFIrstApproval.aspx">
+      <publishTime>02/28/2018 16:04:32</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryClaimedLastApproved.aspx">
+      <publishTime>02/28/2018 23:52:07</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryClaimFinalLevelApproval.aspx">
+      <publishTime>02/05/2018 22:49:52</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryClaimFirstLevelApproval.aspx">
+      <publishTime>02/16/2018 10:48:38</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryClaimSecondLevelApproval.aspx">
+      <publishTime>02/05/2018 22:47:34</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryReport.aspx">
+      <publishTime>03/02/2018 15:49:34</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryUnSold.aspx">
+      <publishTime>02/02/2018 23:56:32</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryUnSoldFinalLevelApproval.aspx">
+      <publishTime>02/27/2018 20:39:10</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryUnSoldFirstLevelApproval.aspx">
+      <publishTime>01/27/2018 18:48:44</publishTime>
+    </File>
+    <File Include="TrxTicketInventoryUnSoldSecondLevelApproval.aspx">
+      <publishTime>01/27/2018 18:48:42</publishTime>
+    </File>
+    <File Include="TrxTicketTransaction.aspx">
+      <publishTime>02/21/2018 23:55:24</publishTime>
+    </File>
+    <File Include="TrxValidateTicket.aspx">
+      <publishTime>12/24/2017 00:37:08</publishTime>
+    </File>
+    <File Include="TrxViewLotteryClaimEntryPWT.aspx">
+      <publishTime>02/01/2018 22:26:24</publishTime>
+    </File>
+    <File Include="TrxViewLotteryClaimEntryPWTFinalLevelApproval.aspx">
+      <publishTime>02/01/2018 22:26:20</publishTime>
+    </File>
+    <File Include="TrxViewLotteryClaimEntryPWTSecondLevelApproval.aspx">
+      <publishTime>02/02/2018 10:10:24</publishTime>
+    </File>
+    <File Include="TrxViewLotteryClaimEntryPWTSendToGovernment.aspx">
+      <publishTime>02/02/2018 11:06:04</publishTime>
+    </File>
+    <File Include="TrxViewLotteryClaimEntrySplTicket.aspx">
+      <publishTime>02/05/2018 22:54:42</publishTime>
+    </File>
+    <File Include="TrxViewLotteryClaimEntrySuperTicket.aspx">
+      <publishTime>02/05/2018 22:58:12</publishTime>
+    </File>
+    <File Include="TrxViewSendToGovernmentApprovedDtl.aspx">
+      <publishTime>02/01/2018 22:26:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/28/2018 23:25:13</publishTime>
+    </File>
+    <File Include="WebPageMaster.Master">
+      <publishTime>01/27/2018 17:38:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -59,7 +59,7 @@ namespace LTMSWebApp
         public void ProcessRequest(HttpContext context)
         {
             string user = context.Request.QueryString["user"];
-            string file = context.Request.QueryString["key"];
+            string file = System.Web.HttpUtility.UrlDecode(context.Request.QueryString["key"]);
             try
             {
                 if (!string.IsNullOrEmpty(file) && !string.IsNullOrEmpty(user) && File.Exists(context.Server.MapPath(string.Format("~/Downloads/merged/{0}/{1}.txt", user, file))))
